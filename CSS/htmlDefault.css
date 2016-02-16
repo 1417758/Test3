@@ -7,7 +7,7 @@ footer {
     text-align: center;
 }
 
-h1 {
+h1, nav {
     text-transform: capitalize;
 }
 
