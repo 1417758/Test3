@@ -3,8 +3,20 @@ html {
     font-family: Verdana, sans-serif;
     font-size:0.8em;
 }
+footer {
+    text-align: center;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
 h2 {
     font-variant: small-caps;
+}
+
+p {
+    text-align: justify;
 }
 
 nav ul {
