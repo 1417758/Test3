@@ -3,12 +3,6 @@ html {
     font-family: Verdana, sans-serif;
     font-size:0.8em;}
 
-header, nav, section, article, footer, aside{
-    border:1px solid grey;
-    margin:5px;
-    padding:8px;
-background-color: red;}
-
 nav ul {
     margin:0;
     padding:0;}
