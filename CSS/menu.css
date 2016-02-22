@@ -8,7 +8,7 @@ ul {
 }
 
 .active {
-    background-color: deeppink;
+    background-color: lightpink;
 }
 
 li {
@@ -27,7 +27,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: deeppink;
 }
 li:last-child {
     border-right: none;
