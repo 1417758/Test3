@@ -20,10 +20,10 @@
         <div id="revised-header">
             <div id="revised-main-nav">
                 <ul>
-                    <li> <a href="history.html">The History of shoes</a> </li>
-                    <li> <a href="favourite.html">My favourite shoes</a></li>
-                    <li> <a href="jokes.html">the best shoes jokes</a></li>
-                    <li><a href="help.html">Help with shoes</a></li>
+                    <li> <a href="../Shoes/history.html">The History of shoes</a> </li>
+                    <li> <a href="../Shoes/favourite.html">My favourite shoes</a></li>
+                    <li> <a href="../Shoes/jokes.html">the best shoes jokes</a></li>
+                    <li><a href="../Shoes/help.html">Help with shoes</a></li>
                 </ul>
             </div>
         </div></div>
