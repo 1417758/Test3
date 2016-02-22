@@ -14,14 +14,16 @@
             <img src="../Images/many.jpg" alt="The Pulpit Rock" width="304" height="128px">
         </figure>
         <h1>The Magical world of shoes!</h1>
-        <marquee> <time datetime="YYYY-MM-DDThh:mm:ssTZD">now</time></marquee>
+        <marquee>
+            <time datetime="YYYY-MM-DDThh:mm:ssTZD">now</time>
+        </marquee>
     </section>
 
     <ul>
-        <li> <a href="../Shoes/history.html">The History of shoes</a> </li>
-        <li> <a href="../Shoes/favourite.html">My favourite shoes</a></li>
-        <li> <a href="../Shoes/jokes.html">the best shoes jokes</a></li>
-        <li> <a href="../Shoes/help.html">Help with shoes</a></li>
+        <li><a href="../Shoes/history.html">The History of shoes</a></li>
+        <li><a href="../Shoes/favourite.html">My favourite shoes</a></li>
+        <li><a href="../Shoes/jokes.html">the best shoes jokes</a></li>
+        <li><a href="../Shoes/help.html">Help with shoes</a></li>
     </ul>
 
 
