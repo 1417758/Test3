@@ -1,6 +1,6 @@
 
 #figHeader > img{
-    width: 30%;
+    width: 29.5%;
     background-color: olivedrab;
     border: dotted thick #f3f3f3;
     float: left;
@@ -9,7 +9,7 @@
 
 }
 section > div > h1 {
-    font-size: 28pt;
+    font-size: 25%;
     width: 69%;
     align-content: flex-end;
     background-color: yellow;
