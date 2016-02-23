@@ -13,7 +13,7 @@
 <header>
     <section>
         <figure id="figHeader">
-            <img src="../Images/many.jpg" alt="The Pulpit Rock" width="304" height="128px">
+            <img src="../Images/many.jpg" alt="headerShoes" >
         </figure>
         <h1>The Magical world of shoes!</h1>
         <marquee>
