@@ -2,8 +2,8 @@
 #figHeader > img{
     width: 27%;
     float: left;
-    position: absolute;
-    margin-left: 0px;
+    position: relative;
+    margin-left: -10px;
     text-align: left;
 
 }
