@@ -1,8 +1,10 @@
 
 #figHeader > img{
-    width: 28%;
+    width: 30%;
     background-color: olivedrab;
+    border: dotted thick #f3f3f3;
     float: left;
+    margin: 0 0 10px 10px;
 
 }
 section > div > h1 {
