@@ -27,6 +27,7 @@ section > div > h1 {
 #article1 {
     width: 30%;
     display: inline;
+    background-color: blue;
 }
 
 #article3 {
