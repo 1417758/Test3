@@ -2,10 +2,7 @@
 #figHeader > img{
     width: 27%;
     float: left;
-    position: relative;
-    margin-left: -50px;
-    text-align: left;
-
+    margin-left: 0px;
 }
 section > div > h1 {
     font-size: 25pt;
