@@ -23,5 +23,5 @@ include("header.php");
 <!--END OF MAIN -->
 
 <?php
-include("header.php");
+include("footer.php");
 ?>
