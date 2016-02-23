@@ -27,7 +27,7 @@ include("header.php");
                     <img src="../Images/sleepers.jpg" >
                 </figure>
             </main>
-            <footer>
+            <footer style="background-color: chartreuse; ">
                 <p>HTML 4 added the ability to let events trigger actions in a browser, like starting a JavaScript when a user clicks on an element.
                     To learn more about programming events, please visit our JavaScript tutorial.
                     Below are the global</p>
