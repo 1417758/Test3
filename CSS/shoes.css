@@ -1,9 +1,10 @@
 
 #figHeader > img{
-    width: 29.5%;
+    width: 25%;
     float: left;
     position: relative;
     margin-left: 0px;
+    text-align: left;
 
 }
 section > div > h1 {
