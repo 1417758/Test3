@@ -2,6 +2,7 @@
 #figHeader > img{
     width: 28%;
     background-color: olivedrab;
+    float: left;
 
 }
 section > div > h1 {
@@ -9,6 +10,7 @@ section > div > h1 {
     width: 69%;
     align-content: flex-end;
     background-color: yellow;
+    float: right;
 }
 
 header
