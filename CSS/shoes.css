@@ -22,12 +22,13 @@ section > div > h1 {
 #article1 {
     width: 32%;
     float: left;
+    background-color: cornflowerblue;
 }
 
 #article2 {
     width: 30%;
     display: inline;
-    background-color: blue;
+    background-color: blueviolet;
 }
 
 #article3 {
