@@ -1,15 +1,14 @@
 
 #figHeader{
-    width: 30%;
-
+    width: 28%;
     background-color: pink;
 
 }
-section > h1 {
+section > div > h1 {
     font-size: 28pt;
     width: 69%;
     align-content: flex-end;
-    background-color: blue;
+    background-color: yellow;
 }
 
 header

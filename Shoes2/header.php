@@ -15,7 +15,8 @@
         <figure id="figHeader">
             <img src="../Images/many.jpg" alt="headerShoes" >
         </figure>
-        <h1>The Magical world of shoes!</h1>
+        <div><h1>The Magical world of shoes!</h1></div>
+
         <marquee>
             <time datetime="YYYY-MM-DDThh:mm:ssTZD">now</time>
         </marquee>
