@@ -29,6 +29,10 @@
         <li><a href="favorite.php">My favourite shoes</a></li>
         <li><a href="jokes.php">the best shoes jokes</a></li>
         <li><a href="help.php">Help with shoes</a></li>
+        <ul style="float:right;list-style-type:none;">
+            <li><a href="default.php">About</a></li>
+            <li><a href="default.php">Contact Us</a></li>
+        </ul>
     </ul>
 
 
