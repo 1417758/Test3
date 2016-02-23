@@ -28,7 +28,7 @@ section > div > h1 {
 
 #articleMiddle {
     width: 30%;
-    max-width: 150px;
+    max-width: 250px;
     height: 550px;
     display: inline;
     background-color: blueviolet;
