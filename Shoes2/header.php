@@ -17,6 +17,8 @@
         </figure>
         <div><h1>The Magical world of shoes!</h1></div>
 
+        <br>
+
         <marquee>
             <time datetime="YYYY-MM-DDThh:mm:ssTZD">now</time>
         </marquee>
