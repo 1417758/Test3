@@ -3,12 +3,14 @@
     width: 27%;
     float: left;
     margin-left: 0px;
+    border: dotted thick aqua;
 }
 /* header title */
 section > div > h1 {
     font-size: 24pt;
     width: 68%;
     float: right;
+    background-color: brown;
 }
 
 header
