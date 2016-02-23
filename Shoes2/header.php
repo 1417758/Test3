@@ -20,10 +20,10 @@
     </section>
 
     <ul>
-        <li><a href="../Shoes/history.html">The History of shoes</a></li>
-        <li><a href="../Shoes/favourite.html">My favourite shoes</a></li>
-        <li><a href="../Shoes/jokes.html">the best shoes jokes</a></li>
-        <li><a href="../Shoes/help.html">Help with shoes</a></li>
+        <li><a href="history.php">The History of shoes</a></li>
+        <li><a href="favourite.php">My favourite shoes</a></li>
+        <li><a href="jokes.php">the best shoes jokes</a></li>
+        <li><a href="help.php">Help with shoes</a></li>
     </ul>
 
 
