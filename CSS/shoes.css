@@ -33,4 +33,5 @@ section > div > h1 {
 #article3 {
     width: 32%;
     float: right;
+    background-color: pink;
 }
