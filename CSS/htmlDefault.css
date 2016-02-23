@@ -27,15 +27,3 @@ body
     background-color: aliceblue;
 }
 
-nav ul {
-    margin:0;
-    padding:0;}
-
-nav ul li {
-    display:inline;
-    margin:5px;}
-
-#navheaderDef {
-    border:1px solid grey;
-    margin:5px;
-    padding:8px;}
