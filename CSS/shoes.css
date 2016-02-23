@@ -25,8 +25,8 @@ section > div > h1 {
 }
 
 #article1 {
-    width: 32%;
-    display: block;
+    width: 30%;
+    display: inline;
 }
 
 #article3 {
