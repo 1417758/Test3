@@ -4,7 +4,8 @@
     background-color: olivedrab;
     border: dotted thick #f3f3f3;
     float: left;
-    margin: 0 0 10px 10px;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
 
 }
 section > div > h1 {
