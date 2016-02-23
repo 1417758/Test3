@@ -21,18 +21,21 @@ section > div > h1 {
 
 #article1 {
     width: 32%;
+    height: 550px;
     float: left;
     background-color: cornflowerblue;
 }
 
 #article2 {
     width: 30%;
+    height: 550px;
     display: inline;
     background-color: blueviolet;
 }
 
 #article3 {
     width: 32%;
+    height: 550px;
     float: right;
     background-color: pink;
 }
