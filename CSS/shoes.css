@@ -8,6 +8,7 @@
 /* header title */
 section > div > h1 {
     font-size: 24pt;
+    font-family: fantasy;
     width: 68%;
     float: right;
     background-color: brown;
