@@ -18,8 +18,8 @@ include("header.php");
                     Below are the global</p>
             </footer>
         </article>
-
-        <article id="articleMiddle" style="background-color: chartreuse; ">
+    <div id="articleMiddle2">
+        <article id="articleMiddle" style="background-color: crimson; ">
             <header> <h3>trainers</h3>
             </header>
             <main>
@@ -33,7 +33,7 @@ include("header.php");
                     Below are the global</p>
             </footer>
         </article>
-
+    </div>
         <article id="article3">
             <header> <h3>high heels</h3>
             </header>
