@@ -19,7 +19,7 @@ include("header.php");
             </footer>
         </article>
 
-        <article id="articleMiddle">
+        <article id="articleMiddle" style="background-color: chartreuse; ">
             <header> <h3>trainers</h3>
             </header>
             <main>
