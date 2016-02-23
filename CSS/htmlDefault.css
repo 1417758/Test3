@@ -13,8 +13,8 @@ header {
     max-width: 1000px;
     height: 30%;
 }
-
-footer {
+/* page's footer */
+#endFooter {
     text-align: center;
     height: 10%;
 }
