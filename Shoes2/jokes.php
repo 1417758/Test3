@@ -19,7 +19,7 @@ include("header.php");
             </footer>
         </article>
 
-        <article id="article2">
+        <article id="articleMiddle">
             <header> <h3>trainers</h3>
             </header>
             <main>
