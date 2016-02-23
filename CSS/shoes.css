@@ -1,7 +1,7 @@
 
-#figHeader{
+#figHeader > img{
     width: 28%;
-    background-color: pink;
+    background-color: olivedrab;
 
 }
 section > div > h1 {
