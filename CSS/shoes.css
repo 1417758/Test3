@@ -5,7 +5,7 @@
     border: dotted thick #f3f3f3;
     float: left;
     position: relative;
-    margin: 0px 0px 0px 0px;
+    margin-left: 0px;
 
 }
 section > div > h1 {

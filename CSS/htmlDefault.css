@@ -21,13 +21,11 @@ p {
 }
 body
 {
-
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     max-width: 960px;
     background-color: aliceblue;
     position: absolute;
-    margin: 0px 0px 0px 0px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
