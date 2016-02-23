@@ -1,35 +1,43 @@
 /* logo */
-#figHeader > img{
+#figHeader > img {
     width: 27%;
+    height: 28%;
     float: left;
     margin-left: -4%;
     border: dotted thick black;
 }
+
 /* header title */
 section > div > h1 {
     font-size: 24pt;
     font-family: fantasy;
     width: 68%;
+    height: 28%;
     float: right;
     background-color: brown;
 }
 
-header
-{
+header {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
+    height: 30%;
 }
 
-#article1{
+#article1 {
     width: 32.5%;
+    height: 40%;
     float: left;
 }
-#article1{
+
+#article1 {
     width: 32.5%;
+    height: 40%;
     display: inline-block;
 }
-#article3{
-     width: 32.5%;
-     float: right;
- }
+
+#article3 {
+    width: 32.5%;
+    height: 40%;
+    float: right;
+}
