@@ -2,7 +2,7 @@
 #figHeader > img{
     width: 27%;
     float: left;
-    margin-left: 0px;
+    margin-left: -2%;
     border: dotted thick aqua;
 }
 /* header title */
