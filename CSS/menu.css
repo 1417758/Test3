@@ -4,7 +4,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #f3f3f3;
-    border: 1px solid #e7e7e7
+    border: 1px solid #e7e7e7;
+    text-transform: capitalize;
 }
 
 .active {

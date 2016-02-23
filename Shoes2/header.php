@@ -5,6 +5,8 @@
     <title>Magical Shoes!</title>
     <link rel="stylesheet" type="text/css" href="../CSS/htmlDefault.css">
     <link rel="stylesheet" type="text/css" href="../CSS/menu.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/shoes.css">
+
 </head>
 <body>
 <!--START OF HEADER -->
@@ -21,7 +23,7 @@
 
     <ul>
         <li><a href="history.php">The History of shoes</a></li>
-        <li><a href="favourite.php">My favourite shoes</a></li>
+        <li><a href="favorite.php">My favourite shoes</a></li>
         <li><a href="jokes.php">the best shoes jokes</a></li>
         <li><a href="help.php">Help with shoes</a></li>
     </ul>
