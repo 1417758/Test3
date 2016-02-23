@@ -22,11 +22,6 @@ include("header.php");
 </main>
 <!--END OF MAIN -->
 
-<!--START OF FOOTER -->
-<footer>
-    <br/><hr>
-    <summary>&copy; 2016 Rachie Holdings. All rights reserved.</summary>
-</footer>
-<!--END OF FOOTER -->
-</body>
-</html>
+<?php
+include("header.php");
+?>
