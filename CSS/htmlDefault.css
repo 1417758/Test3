@@ -18,6 +18,13 @@ h2 {
 p {
     text-align: justify;
 }
+body
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    background-color: blueviolet;
+}
 
 nav ul {
     margin:0;
