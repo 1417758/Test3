@@ -5,6 +5,7 @@ html {
 }
 main{
     height: 60%;
+    max-height: 700px;
 }
 
 header {
