@@ -20,3 +20,16 @@ header
     margin-right: auto;
     max-width: 1000px;
 }
+
+#article1{
+    width: 32.5%;
+    float: left;
+}
+#article1{
+    width: 32.5%;
+    display: inline-block;
+}
+#article3{
+     width: 32.5%;
+     float: right;
+ }
