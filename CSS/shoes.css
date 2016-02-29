@@ -12,6 +12,15 @@
 
 }
 
+main > form {
+    display: flex;
+    display: -webkit-flex /*Safari */
+    flex-direction : row;
+    justify-content: space-between;
+    vertical-align: middle;
+
+}
+
 /* add comment here */
 .grid-33 > main {
     height: 60%;
