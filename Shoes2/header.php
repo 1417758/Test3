@@ -13,10 +13,10 @@
 <!--START OF HEADER -->
 <header>
     <section>
-        <figure id="figHeader">
+        <figure id="figHeader" class="grid-30>
             <img src="../Images/many.jpg" alt="headerShoes">
         </figure>
-        <div><h1>The Magical world of shoes!</h1></div>
+        <div class="grid-70"><h1>The Magical world of shoes!</h1></div>
 
         <br>
 
