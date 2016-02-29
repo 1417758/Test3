@@ -22,7 +22,7 @@
         <br>
 
         <marquee>
-            <time datetime="YYYY-MM-DDThh:mm:ssTZD">now</time>
+           <b> <time datetime="YYYY-MM-DDThh:mm:ssTZD">now</time></b>
         </marquee>
     </section>
 
