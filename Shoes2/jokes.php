@@ -2,7 +2,7 @@
 include("header.php");
 ?>
     <!--START OF MAIN -->
-    <main>
+    <main class="grid-container">
         <h2>The best shoes jokes</h2>
         <section id="article1">
             <header><h3>sandals</h3>
