@@ -2,12 +2,22 @@
 html {
     font-family: Verdana, sans-serif;
     font-size:0.8em;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+    max-width: 1000px;
+    min-width: 500px;
+
+    max-height: 1000px;
+    min-height: 700px;
+
+    position: absolute;
+
 }
 main{
     height: 60%;
-    max-height: 1000px;
-    min-height: 700px;
-}
+ }
 
 header {
     max-width: 1000px;
@@ -17,7 +27,7 @@ header {
 /* page's footer */
 #endFooter {
     text-align: center;
-    height: 10%;
+    height: 5%;
     background-color: aqua;
 }
 
@@ -32,5 +42,4 @@ h2 {
 p {
     text-align: justify;
 }
-
 
