@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Magical Shoes!</title>
+    <!--CSSs link -->
     <link rel="stylesheet" type="text/css" href="../CSS/htmlDefault.css">
     <link rel="stylesheet" type="text/css" href="../CSS/menu.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../CSS/shoes.css"> -->
+     <link rel="stylesheet" type="text/css" href="../CSS/shoes.css">
     <link rel="stylesheet" type="text/css" href="../CSS/unsemantic-grid-responsive-tablet.css">
 
 </head>

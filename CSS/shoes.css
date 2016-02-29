@@ -17,26 +17,3 @@ section > div > h1 {
     background-color: brown;
 }
 
-
-
-#article1 {
-    width: 32%;
-    height: 550px;
-    float: left;
-    background-color: cornflowerblue;
-}
-
-#articleMiddle2 {
-    width: 30%;
-    max-width: 250px;
-    height: 550px;
-    display: inline;
-    background-color: blueviolet;
-}
-
-#article3 {
-    width: 32%;
-    height: 550px;
-    float: right;
-    background-color: pink;
-}
