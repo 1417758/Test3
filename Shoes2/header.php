@@ -6,7 +6,7 @@
     <!--CSSs link -->
     <link rel="stylesheet" type="text/css" href="../CSS/htmlDefault.css">
     <link rel="stylesheet" type="text/css" href="../CSS/menu.css">
-     <link rel="stylesheet" type="text/css" href="../CSS/shoes.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/shoes.css">
     <link rel="stylesheet" type="text/css" href="../CSS/unsemantic-grid-responsive-tablet.css">
 
 </head>
@@ -17,7 +17,7 @@
         <figure id="figHeader" class="grid-30" style="background-color: lightpink">
             <img src="../Images/many.jpg" alt="headerShoes">
         </figure>
-        <div class="grid-65" style="background-color:greenyellow"><h1>The Magical world of shoes!</h1></div>
+        <div class="grid-60" style="background-color:greenyellow"><h1>The Magical world of shoes!</h1></div>
 
         <br>
 
