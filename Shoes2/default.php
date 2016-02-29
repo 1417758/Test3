@@ -2,14 +2,14 @@
 include("header.php");
 ?>
 <!--START OF MAIN -->
-<main>
-    <section>
+<main class="grid-container">
+    <section class="grid-30">
         <figure id="figHeader">
             <img src="../Images/nice.jpg">
         </figure>
     </section>
 
-    <aside>
+    <aside class="grid-70">
         <fieldset>
             <legend>Shoes</legend>
             <p>Global Event Attributes
