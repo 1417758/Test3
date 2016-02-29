@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Magical Shoes!</title>
-     <link rel="stylesheet" type="text/css" href="../CSS/htmlDefault.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../CSS/menu.css">
-     <link rel="stylesheet" type="text/css" href="../CSS/shoes.css"> -->
-     <link rel="stylesheet" type="text/css" href="../CSS/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/htmlDefault.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/menu.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../CSS/shoes.css"> -->
+    <link rel="stylesheet" type="text/css" href="../CSS/unsemantic-grid-responsive-tablet.css">
 
- </head>
- <body>
- <!--START OF HEADER -->
+</head>
+<body>
+<!--START OF HEADER -->
 <header>
     <section>
         <figure id="figHeader">
-            <img src="../Images/many.jpg" alt="headerShoes" >
+            <img src="../Images/many.jpg" alt="headerShoes">
         </figure>
         <div><h1>The Magical world of shoes!</h1></div>
 
