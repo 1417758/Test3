@@ -3,6 +3,13 @@
 
 }
 
+.grid-70 > fieldset {
+    display: flex;
+    display: -webkit-flex /*Safari */
+    flex-direction : row;
+    justify-content: space-between;
+}
+
 /* add comment here */
 .grid-33 > main {
     height: 60%;
