@@ -12,7 +12,7 @@
 
 }
 
-main > form {
+main > form > table {
     display: flex;
     display: -webkit-flex /*Safari */
     flex-direction : row;
