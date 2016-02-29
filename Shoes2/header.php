@@ -14,7 +14,7 @@
 <!--START OF HEADER -->
 <header>
     <section class="grid-container">
-        <figure id="figHeader" class="grid-30" style="background-color: lightpink">
+        <figure id="figHeader" class="grid-30" >
             <img src="../Images/many.jpg" alt="headerShoes">
         </figure>
         <div class="grid-60" ><h1>The Magical world of shoes!</h1></div>
