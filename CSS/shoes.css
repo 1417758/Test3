@@ -8,6 +8,8 @@
     display: -webkit-flex /*Safari */
     flex-direction : row;
     justify-content: space-between;
+    vertical-align: middle;
+    background-color: green;
 }
 
 /* add comment here */
