@@ -1,19 +1,19 @@
 /* logo */
 #figHeader > img {
-    width: 27%;
-    height: 28%;
-    float: left;
-    margin-left: -4%;
-    border: dotted thick black;
+/*   width: 27%;
+  height: 28%;
+  float: left;
+  margin-left: -4%;
+  border: dotted thick black;*/
 }
 
 /* header title */
 section > div > h1 {
-    font-size: 24pt;
-    font-family: fantasy;
-    width: 68%;
-    height: 28%;
-    float: right;
-    background-color: brown;
+/*    font-size: 24pt;
+   font-family: fantasy;
+   width: 68%;
+   height: 28%;
+   float: right;
+   background-color: brown;*/
 }
 
