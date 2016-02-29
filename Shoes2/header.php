@@ -13,7 +13,7 @@
 <body>
 <!--START OF HEADER -->
 <header>
-    <section>
+    <section class="grid-container">
         <figure id="figHeader" class="grid-30" style="background-color: lightpink">
             <img src="../Images/many.jpg" alt="headerShoes">
         </figure>
