@@ -17,7 +17,7 @@
         <figure id="figHeader" class="grid-35" style="background-color: lightpink">
             <img src="../Images/many.jpg" alt="headerShoes">
         </figure>
-        <div class="grid-65" style="background-color:greenyellow"><h1>The Magical world of shoes!</h1></div>
+        <div class="grid-60" style="background-color:greenyellow"><h1>The Magical world of shoes!</h1></div>
 
         <br>
 
