@@ -8,8 +8,9 @@ include("header.php");
             <img src="../Images/nice.jpg">
         </figure>
     </section>
-
+    <br/>
     <aside class="grid-70">
+
         <fieldset>
             <legend>Shoes</legend>
             <p>Global Event Attributes
