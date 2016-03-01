@@ -1,5 +1,5 @@
 <?php
-include("header.php");
+include("rguHeader.php");
 ?>
 <!--START OF MAIN -->
 <main class="grid-container">
