@@ -33,6 +33,6 @@ main > section > article > h1{
 }
 
 main > section > article > span{
-    padding-top: -100px;
-    background-color: orangered;
+    vertical-align: top;
+    background-color: deeppink;
 }
