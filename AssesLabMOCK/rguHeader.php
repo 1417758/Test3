@@ -24,7 +24,7 @@
         <li><a href="...php">Events</a></li>
         <li><a href="...php">Staff</a></li>
         <li><a href="...php">Research</a></li>
-        <li><a href="....php">Study Information</a></li>
+        <li><a href="....php">Study Info</a></li>
         <li><a href="...php">Industry</a></li>
     </ul>
 
