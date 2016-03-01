@@ -14,10 +14,11 @@ ul {
 }
 
 li {
-    float: right;
+    float: left;
     /* Add a gray right border to all list items, except the last item (last-child) */
     border-right: 1px solid #bbb;
     justify-items: center;
+    text-align: justify;
 }
 
 li a {
@@ -26,7 +27,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    width: 12.5%;
+    width: 22.5%;
     display: inline-flex;
 
 }
