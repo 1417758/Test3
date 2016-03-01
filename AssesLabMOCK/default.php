@@ -73,6 +73,8 @@ include("rguHeader.php");
     </section>
     </aside>
 </main>
+
+<br/><br/>
 <!--END OF MAIN -->
 
 <?php
