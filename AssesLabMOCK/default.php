@@ -37,7 +37,7 @@ include("rguHeader.php");
         </article>
     </section>
 
-    <aside class="grid-30" class="grid-30 tablet-grid-50 mobile-grid-100">
+    <aside class="grid-33" class="grid-33 tablet-grid-50 mobile-grid-100">
         <section id="article1Side" >
             <header><h3>Latest News</h3>
             </header>
