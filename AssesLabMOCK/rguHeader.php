@@ -29,7 +29,7 @@
         <li><a href="...php">Industry</a></li>
     </ul>
 
-    <banner id="lowerBan" src="assets/banner.png" alt="banner"></banner>
+    <img id="lowerBan" src="assets/banner.png" alt="banner">
 
 
 </header>
