@@ -16,7 +16,6 @@
     <section>
         <img id="figHeader" src="assets/csdmlogo.png" alt="logo">
     </section>
-    <br>
 
     <ul id="mainNav">
         <li><a href="...php">Home</a></li>
