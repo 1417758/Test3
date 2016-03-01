@@ -37,3 +37,6 @@ li a:hover {
     background-color: #DBC9DF;
     color: white;
 }
+li:last-child {
+    border-right: none;
+}
