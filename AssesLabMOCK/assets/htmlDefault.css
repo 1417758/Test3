@@ -16,7 +16,7 @@ html {
 
 }
 header {
-    width: 960px;
+    width: inherit;
     max-width: 1000px;
     min-width: 500px;
     height: 30%;
