@@ -15,7 +15,6 @@
 <header>
     <section>
         <img id="figHeader" src="assets/csdmlogo.png" alt="logo">
-
     </section>
     <br>
 
@@ -29,6 +28,8 @@
         <li><a href="....php">Study Information</a></li>
         <li><a href="...php">Industry</a></li>
     </ul>
+
+    <img id="figHeader" src="assets/banner.png" alt="logo">
 
 
 </header>
