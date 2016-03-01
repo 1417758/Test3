@@ -12,17 +12,12 @@
 <body>
 <!--START OF HEADER -->
 <header>
-    <section class="grid-container">
-        <figure id="figHeader" class="grid-30" >
+    <section>
+        <figure id="figHeader" class="grid-30">
             <img src="assets/csdmlogo.png" alt="logo">
         </figure>
-
-
-        <br>
-
-
     </section>
-
+    <br>
     <ul>
         <li><a href="...php">Home</a></li>
         <li><a href="...php">About</a></li>
