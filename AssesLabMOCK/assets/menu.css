@@ -10,7 +10,7 @@ ul {
 }
 
 .active {
-    background-color: lightpink;
+    background-color: #782A7E;
 }
 
 li {
@@ -31,5 +31,5 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #DBC9DF;
-    color: black;
+    color: white;
 }
