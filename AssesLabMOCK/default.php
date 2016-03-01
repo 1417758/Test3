@@ -17,7 +17,6 @@ include("rguHeader.php");
         </article>
         <article id="article2">
             <h3>Lorern Ipsum Subittle Text</h3>
-
             <span>Global Event Attributes
                 HTML 4 added the ability to let events trigger actions in a browser, like starting a JavaScript when a
                 user clicks on an element.
@@ -27,7 +26,6 @@ include("rguHeader.php");
         </article>
         <article id="article3">
             <h3>Lorern Ipsum Subittle Text</h3>
-
             <span>Global Event Attributes
                 HTML 4 added the ability to let events trigger actions in a browser, like starting a JavaScript when a
                 user clicks on an element.
