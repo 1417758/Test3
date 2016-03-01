@@ -15,16 +15,18 @@ html {
     min-height: 700px;
 
 }
+header {
+    width: 960px;
+    max-width: 1000px;
+    min-width: 500px;
+    height: 30%;
+}
+
 main{
     height: 60%;
     width: 960px;
  }
 
-header {
-    max-width: 960px;
-    min-width: 500px;
-    height: 30%;
-}
 /* page's footer */
 #endFooter {
     text-align: center;
