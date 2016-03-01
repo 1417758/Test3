@@ -13,7 +13,7 @@
 <!--START OF HEADER -->
 <header>
     <section>
-        <figure id="figHeader" class="grid-30">
+        <figure id="figHeader" >
             <img src="assets/csdmlogo.png" alt="logo">
         </figure>
     </section>
