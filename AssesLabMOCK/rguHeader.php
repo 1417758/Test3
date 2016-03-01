@@ -13,9 +13,8 @@
 <!--START OF HEADER -->
 <header>
     <section>
-        <figure id="figHeader" >
-            <img src="assets/csdmlogo.png" alt="logo" style="width: 250px;">
-        </figure>
+        <img id="figHeader" src="assets/csdmlogo.png" alt="logo">
+
     </section>
     <br>
 
