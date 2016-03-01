@@ -6,8 +6,7 @@ ul {
     background-color: #f3f3f3;
     border: 1px solid #e7e7e7;
     text-transform: capitalize;
-    width: 960px;
-
+    width: 100%;
 }
 
 .active {
@@ -15,8 +14,7 @@ ul {
 }
 
 li {
-    width: 98%;
-    float: left;
+    float: right;
     /* Add a gray right border to all list items, except the last item (last-child) */
     border-right: 1px solid #bbb;
     justify-items: center;
