@@ -8,7 +8,7 @@ include("rguHeader.php");
         <article id="article1">
             <img id="wifie" class="grid-33" src="assets/chrisinajayne.jpg">
 
-            <h1 id="art1Title">Welcome to the School of Computing and Digital media</h1>
+            <h1>Welcome to the School of Computing and Digital media</h1>
 
             Global Event Attributes HTML 4 added the ability to let events trigger actions in a browser, like starting a
             JavaScript when a
