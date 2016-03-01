@@ -15,6 +15,7 @@ include("rguHeader.php");
             To learn more about programming events, please visit our JavaScript tutorial.
             Below are the global event attributes that can be added to HTML elements to define event actions.
             = New event attributes in HTML5.</p>
+        <br/>
         <article id="article1">
             <h3>Lorern Ipsum Subittle Text</h3>
 
@@ -25,6 +26,7 @@ include("rguHeader.php");
                 Below are the global event attributes that can be added to HTML elements to define event actions.
                 = New event attributes in HTML5.</p>
         </article>
+        <br/>
         <article id="article2">
             <h3>Lorern Ipsum Subittle Text</h3>
 
