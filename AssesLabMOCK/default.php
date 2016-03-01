@@ -4,7 +4,7 @@ include("rguHeader.php");
 <!--START OF MAIN -->
 <main class="grid-container">
 
-    <section class="grid-66 tablet-grid-50 mobile-grid-100">
+    <section id="mainSection" class="grid-66 tablet-grid-50 mobile-grid-100">
         <img id="wifie" src="assets/chrisinajayne.jpg">
 
         <h1>Welcome to the School of Computing and Digital media</h1>
