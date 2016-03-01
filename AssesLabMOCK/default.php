@@ -5,7 +5,7 @@ include("rguHeader.php");
 <main class="grid-container">
 
     <section class="grid-60">
-        <img src="../Images/nice.jpg">
+        <img id="wifie" src="assets/chrisinajayne.jpg">
 
         <h1>Welcome to the School of Computing and Digital media</h1>
 
