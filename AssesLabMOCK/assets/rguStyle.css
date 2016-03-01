@@ -30,3 +30,6 @@
     background-color: greenyellow;
     vertical-align: text-top;
 }
+#mainSection>article>h1{
+    font-size: 24pt;
+}
