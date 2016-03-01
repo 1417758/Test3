@@ -5,9 +5,9 @@ include("rguHeader.php");
 <main class="grid-container">
 
     <section id="mainSection" class="grid-66 tablet-grid-50 mobile-grid-100">
-        <img id="wifie" src="assets/chrisinajayne.jpg" >
+        <img id="wifie" class="grid-33" src="assets/chrisinajayne.jpg" >
 
-        <div id="wifieTitle"><h1>Welcome to the School of Computing and Digital media</h1></div>
+        <div id="wifieTitle" class="grid-60"><h1>Welcome to the School of Computing and Digital media</h1></div>
 
         <p>Global Event Attributes HTML 4 added the ability to let events trigger actions in a browser, like starting a JavaScript when a
             user clicks on an element.
