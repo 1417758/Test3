@@ -16,7 +16,7 @@ li {
     float: left;
     /* Add a gray right border to all list items, except the last item (last-child) */
     border-right: 1px solid #bbb;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 li a {
