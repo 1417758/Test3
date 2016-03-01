@@ -19,7 +19,7 @@ header {
 }
 
 main{
-    width: 960px;
+    width: inherit;
     height: 60%;
  }
 
