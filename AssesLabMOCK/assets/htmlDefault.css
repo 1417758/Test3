@@ -5,14 +5,14 @@ html {
     margin-left: auto;
     margin-right: auto;
 
-    width: 100%;
+
+    width: 960px;
     max-width: 1000px;
     min-width: 500px;
 
+    height: 960px;
     max-height: 1000px;
     min-height: 700px;
-
-    position: absolute;
 
 }
 main{
@@ -21,7 +21,7 @@ main{
  }
 
 header {
-    max-width: 1000px;
+    max-width: 960px;
     min-width: 500px;
     height: 30%;
 }
@@ -30,14 +30,6 @@ header {
     text-align: center;
     height: 5%;
     background-color: aqua;
-}
-
-h1, nav {
-    text-transform: capitalize;
-}
-
-h2 {
-    font-variant: small-caps;
 }
 
 p {
