@@ -6,7 +6,7 @@ ul {
     background-color: #f3f3f3;
     border: 1px solid #e7e7e7;
     text-transform: capitalize;
-    justify-content: space-between;
+
 }
 
 .active {
@@ -27,6 +27,7 @@ li a {
     text-align: center;
     padding: 14px 16px 14px 25px ;
     text-decoration: none;
+    width: 12.5%;
 }
 
 /* Change the link color to #111 (black) on hover */
