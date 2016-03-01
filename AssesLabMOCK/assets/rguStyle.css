@@ -16,10 +16,16 @@
 }
 #article1Side{
     background-color: #DBC9DF;
+    color: white;
+    margin: 0 0 0 0px;
+    padding: 10px 10px 10px 10px;
 }
 
 #article2Side{
     background-color: #782A7E;
+    color: white;
+    margin: 0 0 0 0px;
+    padding: 10px 10px 10px 10px;
 }
 
 #mainSection{
