@@ -31,3 +31,7 @@
 main > section > article > h1{
     font-size: 18pt;
 }
+
+main > section > article > span{
+    margin-top: -10px;
+}
