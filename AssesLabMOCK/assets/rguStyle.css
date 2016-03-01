@@ -33,6 +33,6 @@ main > section > article > h1{
 }
 
 main > section > article > span{
-    margin-top: -100px;
+    padding-top: -100px;
     background-color: yellow;
 }
