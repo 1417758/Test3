@@ -14,10 +14,11 @@
 <header>
     <section>
         <figure id="figHeader" >
-            <img src="assets/csdmlogo.png" alt="logo">
+            <img src="assets/csdmlogo.png" alt="logo" style="width: 250px;">
         </figure>
     </section>
     <br>
+
     <ul>
         <li><a href="...php">Home</a></li>
         <li><a href="...php">About</a></li>
