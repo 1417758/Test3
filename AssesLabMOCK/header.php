@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RGU</title>
+    <!--CSSs link -->
+    <link rel="stylesheet" type="text/css" href="assets/unsemantic-grid-responsive-tablet.css">
+
+</head>
+<body>
+<!--START OF HEADER -->
+<header>
+    <section class="grid-container">
+        <figure id="figHeader" class="grid-30" >
+            <img src="../Images/many.jpg" alt="headerShoes">
+        </figure>
+        <div class="grid-60" ><h1>The Magical world of shoes!</h1></div>
+
+        <br>
+
+        <marquee>
+           <b> <time datetime="YYYY-MM-DDThh:mm:ssTZD">now</time></b>
+        </marquee>
+    </section>
+
+    <ul>
+        <li><a href="history.php">The History of shoes</a></li>
+        <li><a href="favorite.php">My favourite shoes</a></li>
+        <li><a href="jokes.php">the best shoes jokes</a></li>
+        <li><a href="help.php">Help with shoes</a></li>
+        <ul style="float:right;list-style-type:none;display:inline">
+            <li><a href="default.php">About</a></li>
+        </ul>
+    </ul>
+
+
+</header>
+<!--END OF HEADER -->
