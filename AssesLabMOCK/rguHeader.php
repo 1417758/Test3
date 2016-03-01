@@ -16,7 +16,7 @@
         <figure id="figHeader" class="grid-30" >
             <img src="assets/csdmlogo.png" alt="logo">
         </figure>
-        <div class="grid-60" ><h1>The Magical world of shoes!</h1></div>
+
 
         <br>
 

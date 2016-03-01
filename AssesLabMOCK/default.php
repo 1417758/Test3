@@ -24,5 +24,5 @@ include("rguHeader.php");
 <!--END OF MAIN -->
 
 <?php
-include("footer.php");
+include("rguFooter.php");
 ?>
