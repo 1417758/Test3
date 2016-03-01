@@ -4,7 +4,7 @@ include("rguHeader.php");
 <!--START OF MAIN -->
 <main class="grid-container">
 
-    <section id="mainSection" class="grid-66 tablet-grid-50 mobile-grid-100">
+    <section id="mainSection" class="grid-66 tablet-grid-66 mobile-grid-66">
         <article id="article1">
             <img id="wifie" class="grid-33" src="assets/chrisinajayne.jpg">
             <h1>Welcome to the School of Computing and Digital media</h1>
@@ -35,7 +35,7 @@ include("rguHeader.php");
         </article>
     </section>
 
-    <aside class="grid-33" class="grid-33 tablet-grid-33 mobile-grid-33" style="background-color: yellow">
+    <aside class="grid-33" class="grid-33 tablet-grid-33 mobile-grid-33" ">
         <section id="article1Side">
             <header><h3>Latest News</h3>
             </header>
