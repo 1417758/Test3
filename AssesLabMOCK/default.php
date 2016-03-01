@@ -74,7 +74,7 @@ include("rguHeader.php");
     </aside>
 </main>
 
-<br/><br/>
+<br/>
 <!--END OF MAIN -->
 
 <?php
