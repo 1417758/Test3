@@ -1,11 +1,12 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: auto;
     overflow: hidden;
     background-color: #f3f3f3;
     border: 1px solid #e7e7e7;
     text-transform: capitalize;
+    justify-content: center;
 }
 
 .active {
@@ -16,7 +17,7 @@ li {
     float: left;
     /* Add a gray right border to all list items, except the last item (last-child) */
     border-right: 1px solid #bbb;
-    justify-content: center;
+
 }
 
 li a {
