@@ -25,10 +25,8 @@
 #mainSection{
     margin: 0 0 0 -2%;
 }
-#wifieTitle{
-    height: 203px;
-    background-color: greenyellow;
-    vertical-align: text-top;
+#wifie{
+    margin: 0 0 0 -2%;
 }
 main > section > article > h1{
     font-size: 18pt;
