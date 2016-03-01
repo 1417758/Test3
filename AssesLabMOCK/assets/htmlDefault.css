@@ -36,5 +36,6 @@ h1, h2, h3{
     text-transform: capitalize;
     margin: 0 0 0 0px;
     padding: 0 0 0 0px;
+    background-color: yellow;
 }
 
