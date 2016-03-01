@@ -37,8 +37,8 @@ include("rguHeader.php");
         </article>
     </section>
 
-    <aside class="grid-30">
-        <section id="article1" class="grid-30 tablet-grid-50 mobile-grid-100">
+    <aside class="grid-30" class="grid-30 tablet-grid-50 mobile-grid-100">
+        <section id="article1" >
             <header><h3>Latest News</h3>
             </header>
             <main>
@@ -55,7 +55,7 @@ include("rguHeader.php");
             </footer>
         </section>
 
-        <section id="article2" class="grid-30 tablet-grid-50 mobile-grid-100">
+        <section id="article2">
             <header><h3>Upcoming Events</h3></header>
             <main>
                 <p>HTML 4 added the ability to let events trigger actions in a browser, like starting a JavaScript when
