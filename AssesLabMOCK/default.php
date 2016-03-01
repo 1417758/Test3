@@ -4,7 +4,7 @@ include("rguHeader.php");
 <!--START OF MAIN -->
 <main class="grid-container">
 
-    <section class="grid-60">
+    <section class="grid-66 tablet-grid-50 mobile-grid-100">
         <img id="wifie" src="assets/chrisinajayne.jpg">
 
         <h1>Welcome to the School of Computing and Digital media</h1>
@@ -16,7 +16,7 @@ include("rguHeader.php");
             Below are the global event attributes that can be added to HTML elements to define event actions.
             = New event attributes in HTML5.</p>
         <article id="article1">
-            <h2>Lorern Ipsum Subittle Text</h2>
+            <h3>Lorern Ipsum Subittle Text</h3>
 
             <p>Global Event Attributes
                 HTML 4 added the ability to let events trigger actions in a browser, like starting a JavaScript when a
@@ -26,7 +26,7 @@ include("rguHeader.php");
                 = New event attributes in HTML5.</p>
         </article>
         <article id="article2">
-            <h2>Lorern Ipsum Subittle Text</h2>
+            <h3>Lorern Ipsum Subittle Text</h3>
 
             <p>Global Event Attributes
                 HTML 4 added the ability to let events trigger actions in a browser, like starting a JavaScript when a
@@ -37,7 +37,7 @@ include("rguHeader.php");
         </article>
     </section>
 
-    <aside class="grid-33" class="grid-33 tablet-grid-50 mobile-grid-100">
+    <aside class="grid-33" class="grid-33 tablet-grid-30 mobile-grid-100">
         <section id="article1Side" >
             <header><h3>Latest News</h3>
             </header>
