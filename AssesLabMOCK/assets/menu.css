@@ -17,7 +17,7 @@ li {
     float: left;
     /* Add a gray right border to all list items, except the last item (last-child) */
     border-right: 1px solid #bbb;
-    padding: 10%;
+
 
 }
 
@@ -27,6 +27,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    padding-left: 10%;
 }
 
 /* Change the link color to #111 (black) on hover */
