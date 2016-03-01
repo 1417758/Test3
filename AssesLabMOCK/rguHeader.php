@@ -18,7 +18,7 @@
     </section>
     <br>
 
-    <ul>
+    <ul id="mainNav">
         <li><a href="...php">Home</a></li>
         <li><a href="...php">About</a></li>
         <li><a href="...php">News</a></li>
@@ -29,7 +29,7 @@
         <li><a href="...php">Industry</a></li>
     </ul>
 
-    <img id="figHeader" src="assets/banner.png" alt="logo">
+    <img id="lowerImg" src="assets/banner.png" alt="banner">
 
 
 </header>
