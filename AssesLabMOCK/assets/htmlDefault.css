@@ -17,14 +17,12 @@ html {
 }
 header {
     width: inherit;
-    max-width: 1000px;
-    min-width: 500px;
     height: 30%;
 }
 
 main{
-    height: 60%;
     width: inherit;
+    height: 60%;
  }
 
 /* page's footer */
