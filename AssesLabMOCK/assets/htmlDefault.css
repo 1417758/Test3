@@ -28,6 +28,7 @@ main {
 /* page's footer */
 #endFooter {
     text-align: center;
+    width: 960px;
     height: 5%;
     background-color: #363636;
     color: white;

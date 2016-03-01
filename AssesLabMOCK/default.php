@@ -14,6 +14,8 @@ include("rguHeader.php");
             user clicks on an element.
             To learn more about programming events, please visit our JavaScript tutorial.
             Below are the global event attributes that can be added to HTML elements to define event actions.
+            = New event attributes in HTML5.To learn more about programming events, please visit our JavaScript tutorial.
+            Below are the global event attributes that can be added to HTML elements to define event actions.
             = New event attributes in HTML5.</span>
         </article>
         <article id="article2">
