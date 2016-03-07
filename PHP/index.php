@@ -34,12 +34,12 @@
 */
 
     $name = "Edgar";
-    if ($name > $myName){
-        print $name > $myName;
-        echo $name > $myName;
+    if ($name == $myName){
+        print "this is print command";
+        echo "this is echo command";
     }else{
-        print $name > $myName;
-        echo $name > $myName;
+        print "this is print command";
+        echo "this is echo command";
     }
 
 echo $name;
