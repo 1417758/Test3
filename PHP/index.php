@@ -37,7 +37,10 @@
     if ($name > $myName){
         print $name > $myName;
         echo $name > $myName;
-    }
+    }else{
+        print $name > $myName;
+        echo $name > $myName;    }
+
 
 ?>
 
