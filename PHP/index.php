@@ -19,11 +19,29 @@
 </h2>
 <br/>
 <?php
-    /*variables */
+    //variables
     $myName = "Rachie";
     $myAge = 19;
-    echo "My name is: " . $myName . "and my age is: " . $myAge;
+    echo "My name is: " . $myName . " and my age is: " . $myAge;
+
+/*  COMPARISONS
+    != (Not	equal)
+    == (Equal	to)
+    <=  (Less	than	or	equal	to)
+    >=  (Greater	than	or	equal	to)
+    <   (Less	than)
+    >   (Greater than)
+*/
+
+    $name = "Edgar";
+    if ($name > $myName){
+        print $name > $myName;
+        echo $name > $myName;
+    }
+
 ?>
+
+
 
 
 </body>
