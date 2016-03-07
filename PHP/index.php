@@ -42,7 +42,7 @@
         echo $name > $myName;
     }
 
-
+echo $name;
 ?>
 
 
