@@ -26,9 +26,6 @@ elseif ($age > 18 AND $age < 21)
 elseif ($age > 21)
     print "Hi " . $name . " you are allowed to buy anything!";
 
-
-
-
 /*  LOGICAL OPERATORS
     $a and $b 	(And) 	TRUE if both $a and $b are TRUE.
     $a or $b 	(Or) 	TRUE if either $a or $b is TRUE.
@@ -38,14 +35,21 @@ elseif ($age > 21)
     $a || $b 	(Or) 	TRUE if either $a or $b is TRUE.
 */
 
-
-if ($name == $myName) {
-    print "this is print command";
-} else {
-    echo "this is echo command";
+$numbHobbits = 2;
+switch ($numbHobbits){
+    case 1:
+        echo "1 sad hobitt";
+        break;
+    case 2:
+        echo "2 happy hobbits";
+        break;
+    case 3:
+        echo "3 hobbits are a crowd";
+        break;
+    default:
+        echo "All the hobbits have gone home";
+        break;
 }
-
-echo $name;
 
 ?>
 
