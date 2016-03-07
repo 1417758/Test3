@@ -19,10 +19,10 @@
 </h2>
 <br/>
 <?php
-    //variables
-    $myName = "Rachie";
-    $myAge = 19;
-    echo "My name is: " . $myName . " and my age is: " . $myAge;
+//variables
+$myName = "Rachie";
+$myAge = 19;
+echo "My name is: " . $myName . " and my age is: " . $myAge;
 
 /*  COMPARISONS
     != (Not	equal)
@@ -33,19 +33,16 @@
     >   (Greater than)
 */
 
-    $name = "Edgar";
-    if ($name == $myName){
-        print "this is print command";
-        echo "this is echo command";
-    }else{
-        print "this is print command";
-        echo "this is echo command";
-    }
+$name = "Edgar";
+if ($name == $myName) {
+    print "this is print command";
+} else {
+    echo "this is echo command";
+}
 
 echo $name;
+
 ?>
-
-
 
 
 </body>
