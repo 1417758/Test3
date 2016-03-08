@@ -4,7 +4,7 @@ include("header.php");
 <!--START OF MAIN -->
 <main>
     <h2>help with shoes</h2>
-    <form id="formHelp">
+    <form id="formHelp" action="http://1417758.azurewebsites.net/php/index.php" method="post">
         <table>
             <tr>
                 <td>Name</td>

@@ -42,6 +42,9 @@ if ($name == $myName) {
 
 echo $name;
 
+
+form
+
 ?>
 
 
