@@ -71,7 +71,7 @@ switch ($wantedDog) {
 echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
 $myArray = array("do", "re", "mi");
 echo $myArray[0];//prints 1st item of the array
-echo $myArray[1] = 1; //modifies position 1
+$myArray[1] = 1; //modifies position 1
 echo $myArray[1];
 unset($myArray[2]);//removes item on the index indicated
 echo $myArray[2] = "me";
