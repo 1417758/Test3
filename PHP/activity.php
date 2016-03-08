@@ -6,7 +6,7 @@
 
 <?php
 echo "<br/><br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
-$mug = "mug";
+$mug = "Mugs";
 $spec = "spec";
 $sausRoll = "sausage roll";
 $myName = "Retard";
@@ -76,18 +76,18 @@ echo $myArray[1];
 unset($myArray[2]);//removes item on the index indicated
 echo $myArray[2] = "me";
 
-$provActs = array("Specs", "Drugs", "Rock&Roll");
+$provActs = array("Specs", "Drugs", "Rock&Roll", "Mugs");
 
 echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";
-foreach($provActs as $x){
-    if($provActs[0] == $x)
+foreach ($provActs as $x) {
+    if ($provActs[0] == $x)
         print $x;
-    else
-    print "<br/>".$x;
+    elseif ($x == $mug)
+        echo $provActs[3] = "Hugs"
+        else
+            print "<br/>" . $x;
+
 }
-
-
-
 
 
 ?>
