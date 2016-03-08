@@ -76,6 +76,14 @@ echo $myArray[1];
 unset($myArray[2]);//removes item on the index indicated
 echo $myArray[2] = "me";
 
+$provActs = array("Specs", "Drugs", "Rock&Roll");
+
+echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";
+foreach($provActs as $x){
+    print "<br/>".$provActs;
+}
+
+
 
 
 
