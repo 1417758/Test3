@@ -80,7 +80,7 @@ $provActs = array("Specs", "Drugs", "Rock&Roll");
 
 echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";
 foreach($provActs as $x){
-    print "<br/>".$provActs;
+    print "<br/>".$x.xdebug_time_index();
 }
 
 
