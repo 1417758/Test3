@@ -35,7 +35,7 @@ elseif ($age > 21)
     $a && $b 	(And) 	TRUE if both $a and $b are TRUE.
     $a || $b 	(Or) 	TRUE if either $a or $b is TRUE.
 */
-echo "<br/><br/>/*---------  SWITCH CONDITION  -------------- <br/>*/";
+echo "<br/><br/>/*---------  SWITCH CONDITION  -------------- */<br/>";
 $numbHobbits = 2;
 switch ($numbHobbits) {
     case 1:
