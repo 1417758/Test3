@@ -88,8 +88,21 @@ foreach ($provActs as $x) {
         print "<br/>" . $x;
 }
 
-for ($i = 0; $i <10; $i++)
+for ($i = 0; $i < 10; $i++)
     echo "<br/>" . ($i + 1);
+?>
+<form id="formAct1" action="activity.php" method="get">
+
+    Please enter the Number of days this month has:
+    <input type="number" name="NumbDays">
+    <input type="submit" value="Submit">
+</form>
+<?php
+for ($i = 0; $i < 30; $i++) {
+    echo "<br/>" . ($i + 1);
+
+}
+
 ?>
 
 
