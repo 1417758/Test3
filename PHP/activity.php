@@ -97,7 +97,8 @@ for ($i = 0; $i < 10; $i++)
     <input type="submit" value="Submit">
 </form>
 <?php
-for ($i = 0; $i < 30; $i++) {
+$days = $_GET["NumbDays"];
+for ($i = 0; $i < $days; $i++) {
     echo "<br/>" . ($i + 1);
 
 }
