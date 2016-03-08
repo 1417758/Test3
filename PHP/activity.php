@@ -83,7 +83,7 @@ foreach ($provActs as $x) {
     if ($provActs[0] == $x)
         print $x;
     elseif ($x == $mug)
-        echo $provActs[3] = "Hugs";
+        echo "<br/>" . $provActs[3] = "Hugs";
     else
         print "<br/>" . $x;
 
