@@ -5,7 +5,7 @@
 <body>
 
 <?php
-//variables
+/*---------  DECLARE VARIABLES  -------------- */
 $mug = "mug";
 $spec = "spec";
 $sausRoll = "sausage roll";
@@ -16,6 +16,7 @@ $age;
 
 //test - print input
 print("the user name is: " . $myName . " and my age is: " . $myAge);
+/*---------  IF CONDITION  -------------- */
 //wot is allowed
 if ($age < 16)
     print "Im sorry " . $name . " you arent allowed to buy anything!";
@@ -24,7 +25,7 @@ elseif ($age > 16 AND $age < 18)
 elseif ($age > 18 AND $age < 21)
     print "Hi " . $name . " you are allowed to buy specs and mugs";
 elseif ($age > 21)
-    print "Hi " . $name . " you are allowed to buy anything!";
+    print "Hi " . $name . " you are allowed to buy sausage roll!";
 
 /*  LOGICAL OPERATORS
     $a and $b 	(And) 	TRUE if both $a and $b are TRUE.
@@ -34,9 +35,9 @@ elseif ($age > 21)
     $a && $b 	(And) 	TRUE if both $a and $b are TRUE.
     $a || $b 	(Or) 	TRUE if either $a or $b is TRUE.
 */
-
+/*---------  SWITCH CONDITION  -------------- */
 $numbHobbits = 2;
-switch ($numbHobbits){
+switch ($numbHobbits) {
     case 1:
         echo "1 sad hobitt";
         break;
@@ -48,24 +49,34 @@ switch ($numbHobbits){
         break;
     default:
         echo "All the hobbits have gone home";
+        break;
+}
+//$wantedDog = userInput;
+$wantedDog = "mugs";//get user input
+switch ($wantedDog) {
+    case "specs":
+        echo "your are older then 16";
+        break;
+    case "mugs":
+        echo "your are older then 18";
+        break;
+    case "sausage roll":
+        echo "your are older then 21";
+        break;
+    default:
+        echo "you are very old!";
         break;
 }
 
-$wantedDog = 2;
-switch ($wantedDog){
-    case 1:
-        echo "1 sad hobitt";
-        break;
-    case 2:
-        echo "2 happy hobbits";
-        break;
-    case 3:
-        echo "3 hobbits are a crowd";
-        break;
-    default:
-        echo "All the hobbits have gone home";
-        break;
-}
+/*---------  ARRAYS  -------------- */
+$myArray = array("do", "re", "mi");
+echo $myArray[0];//prints 1st item of the array
+echo $myArray[1] = 1; //modifies position 1
+echo $myArray[1];
+unset($myArray[2]);
+
+
+
 
 ?>
 
