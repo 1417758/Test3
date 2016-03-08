@@ -5,7 +5,7 @@
 <body>
 
 <?php
-/*---------  DECLARE VARIABLES  -------------- */
+echo "<br/>/*---------  DECLARE VARIABLES  -------------- */";
 $mug = "mug";
 $spec = "spec";
 $sausRoll = "sausage roll";
@@ -16,7 +16,7 @@ $age;
 
 //test - print input
 print("the user name is: " . $myName . " and my age is: " . $myAge);
-/*---------  IF CONDITION  -------------- */
+echo "<br/>/*---------  IF CONDITION  -------------- */";
 //wot is allowed
 if ($age < 16)
     print "Im sorry " . $name . " you arent allowed to buy anything!";
@@ -35,7 +35,7 @@ elseif ($age > 21)
     $a && $b 	(And) 	TRUE if both $a and $b are TRUE.
     $a || $b 	(Or) 	TRUE if either $a or $b is TRUE.
 */
-/*---------  SWITCH CONDITION  -------------- */
+echo "<br/>/*---------  SWITCH CONDITION  -------------- */";
 $numbHobbits = 2;
 switch ($numbHobbits) {
     case 1:
@@ -68,7 +68,7 @@ switch ($wantedDog) {
         break;
 }
 
-/*---------  ARRAYS  -------------- */
+echo "<br/>/*---------  ARRAYS  -------------- */";
 $myArray = array("do", "re", "mi");
 echo $myArray[0];//prints 1st item of the array
 echo $myArray[1] = 1; //modifies position 1
