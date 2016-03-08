@@ -84,8 +84,8 @@ foreach ($provActs as $x) {
         print $x;
     elseif ($x == $mug)
         echo $provActs[3] = "Hugs"
-        else
-            print "<br/>" . $x;
+    else
+        print "<br/>" . $x;
 
 }
 
