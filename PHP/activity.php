@@ -80,6 +80,9 @@ $provActs = array("Specs", "Drugs", "Rock&Roll");
 
 echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";
 foreach($provActs as $x){
+    if($provActs[0] == $x)
+        print $x;
+    else
     print "<br/>".$x;
 }
 
