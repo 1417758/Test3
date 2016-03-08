@@ -9,8 +9,8 @@ echo "<br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
 $mug = "mug";
 $spec = "spec";
 $sausRoll = "sausage roll";
-$name;
-$age;
+$myName = "Retard";
+$myAge = "54";
 
 //add pop up here to request user name and age
 
