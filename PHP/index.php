@@ -42,7 +42,7 @@ if ($name == $myName) {
 
 echo $name;
 
-echo "WE ARE HERE!!!!! \n\n";
+echo " \n\nWE ARE HERE!!!!! \n\n";
 echo "\t your name is" .  $_POST["shoeHelp_iptName"];
 echo "\t Your email address is: " .  $_POST["shoeHelp_iptEmail"];
 
