@@ -42,9 +42,9 @@ if ($name == $myName) {
 
 echo $name;
 
-
-Welcome <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
+echo "WE ARE HERE!!!!!";
+echo "your name is" .  $_POST["shoeHelp_iptName"];
+echo "Your email address is: " .  $_POST["shoeHelp_iptEmail"];
 
 ?>
 
