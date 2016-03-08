@@ -8,11 +8,11 @@ include("header.php");
         <table>
             <tr>
                 <td>Name</td>
-                <td><input type="text"></td>
+                <td><input type="text" name="shoeHelp_iptName"></td>
             </tr>
             <tr>
                 <td>email</td>
-                <td><input type="text"></td>
+                <td><input type="text" name="shoeHelp_iptEmail"></td>
             </tr>
             <tr>
                 <td>favourite shoes</td>
@@ -22,7 +22,7 @@ include("header.php");
             </tr>
             <tr>
                 <td>What is your shoe problem?</td>
-                <td><textarea rows="4" cols="25"></textarea></td>
+                <td><textarea rows="4" cols="25" name="shoeHelp_iptProb"></textarea></td>
             </tr>
             <tr>
                 <td><input type="submit" value="Submit"></td>

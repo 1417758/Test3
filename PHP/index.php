@@ -43,7 +43,8 @@ if ($name == $myName) {
 echo $name;
 
 
-form
+Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>
 
 ?>
 
