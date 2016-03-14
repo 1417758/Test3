@@ -1,0 +1,9 @@
+Database Name: MySqlDB
+Location: East Asia
+Hostname: ap-cdbr-azure-east-c.cloudapp.net
+Port: 3306
+Username: b592f05b3b6e2e
+Password: 4e021d86
+Connection String: Database=acsm_0c1b561097cfd9e;Data Source=ap-cdbr-azure-east-c.cloudapp.net;User Id=b592f05b3b6e2e;Password=4e021d86
+Subscription Id: 236b36b6-9869-4781-8634-0590a2a55689
+Subscription Name: DreamSpark
