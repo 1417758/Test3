@@ -19,11 +19,9 @@
         <label>Password:</label><br>
         <input type="password" name="password" placeholder="password"/>
         <br><br>
-
         <input type="submit" name="submit" value="login"/>
-        <?php echo "you are here! index page";?>
     </form>
-    <div class="error"><?php echo $error;?><?php echo $username; echo
+    <div class="error"><?php //echo $error;?><?php //echo $username; echo
         $password; ?></div>
 </div>
 </body>
