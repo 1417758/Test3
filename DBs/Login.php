@@ -30,7 +30,9 @@ if (mysqli_num_rows($queryResult) == 1) {
     echo date('h:i:s') . "\n\n";
 
     $diff = abs(strtotime($d_end) - strtotime($d_start));
-    echo "Did you wait 15 secs?" . $diff;
+    $seconds = floor(($diff - $years * 365 * 60 * 60 * 24 - $months * 30 * 60 * 60 * 24 - $days * 60 * 60 * 24 - $hours * 60 * 60 - $minuts * 60));
+
+    echo "Did you wait 15 secs? " . $seconds;
     ob_end_flush();
     // header("location: index.php");
 }
