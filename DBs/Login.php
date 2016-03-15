@@ -17,6 +17,7 @@ if (mysqli_num_rows($queryResult) == 1) {
     header("location: home.php"); // Redirecting To another Page
 } else {
     echo "Incorrect username or password!\n\n\n";
+    $d_start = strtotime(time,now);
     echo date('h:i:s') . "<br>";
 
     //sleep for 25 seconds
@@ -25,8 +26,9 @@ if (mysqli_num_rows($queryResult) == 1) {
     sleep(25);
 
     //start again
+    $d_end = strtotime(time,now);
     echo date('h:i:s') . "\n\n";
-    echo "Try logging in again!";
+    echo "Did you wait 25 secs?" . $d_end - $d_start ;
     ob_end_flush();
     // header("location: index.php");
 }
