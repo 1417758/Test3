@@ -20,15 +20,15 @@ if (mysqli_num_rows($queryResult) == 1) {
     $d_start = strtotime(time,now);
     echo date('h:i:s') . "<br>";
 
-    //sleep for 25 seconds
+    //sleep for 15 seconds
     ob_flush();
     flush();
-    sleep(25);
+    sleep(15);
 
     //start again
     $d_end = strtotime(time,now);
     echo date('h:i:s') . "\n\n";
-    echo "Did you wait 25 secs?" . $d_end - $d_start ;
+    echo "Did you wait 15 secs?" . $d_end - $d_start ;
     ob_end_flush();
     // header("location: index.php");
 }
