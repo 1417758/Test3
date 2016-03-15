@@ -28,7 +28,9 @@ if (mysqli_num_rows($queryResult) == 1) {
     //start again
     $d_end = strtotime(time, now);
     echo date('h:i:s') . "\n\n";
-    echo "Did you wait 15 secs?" . $d_end - $d_start;
+
+    $diff = abs(strtotime($d_end) - strtotime($d_start));
+    echo "Did you wait 15 secs?" . $diff;
     ob_end_flush();
     // header("location: index.php");
 }
