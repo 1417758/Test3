@@ -16,7 +16,7 @@ $queryResult = mysqli_query($db, $sql);
 if (mysqli_num_rows($queryResult) == 1) {
     header("location: home.php"); // Redirecting To another Page
 } else {
-    echo "Incorrect username or password!\n\n\\n";
+    echo "Incorrect username or password!". "<br>";
     $d_start = strtotime(time, now);
     echo date('h:i:s') . "<br>";
 
@@ -27,7 +27,7 @@ if (mysqli_num_rows($queryResult) == 1) {
 
     //start again
     $d_end = strtotime(time, now);
-    echo date('h:i:s') . "\n\n";
+    echo date('h:i:s') . "<br>";
 
     $diff = abs(strtotime($d_end) - strtotime($d_start));
     $seconds = floor(($diff - $years * 365 * 60 * 60 * 24 - $months * 30 * 60 * 60 * 24 - $days * 60 * 60 * 24 - $hours * 60 * 60 - $minuts * 60));
