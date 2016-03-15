@@ -27,6 +27,7 @@ $queryResult = mysqli_query($db, $sql);
     //start again
         echo date('h:i:s');
         echo "Try logging in again!";
+        ob_end_flush();
        // header("location: index.php");
     }
 
