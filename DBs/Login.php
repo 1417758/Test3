@@ -20,7 +20,9 @@ $queryResult = mysqli_query($db, $sql);
         echo date('h:i:s') . "<br>";
 
     //sleep for 5 seconds
-        sleep(5);
+        ob_flush();
+        flush();
+        sleep(25);
 
     //start again
         echo date('h:i:s');
