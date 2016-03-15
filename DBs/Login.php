@@ -16,10 +16,10 @@ $queryResult = mysqli_query($db, $sql);
     if (mysqli_num_rows($queryResult) == 1) {
         header("location: home.php"); // Redirecting To another Page
     } else {
-        echo "Incorrect username or password!";
+        echo "Incorrect username or password!\n";
         echo date('h:i:s') . "<br>";
 
-    //sleep for 5 seconds
+    //sleep for 25 seconds
         ob_flush();
         flush();
         sleep(25);
