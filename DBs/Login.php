@@ -3,8 +3,11 @@ include("DBConnection.php"); //Establishing connection with our database
 
 if (empty($_POST["username"]) || empty($_POST["password"])) {
     echo "Both fields are required.";
-}
-
+}?>
+<SCRIPT>
+echo "alert('here')";
+</SCRIPT>
+<?php
 $username = $_POST['username'];
 $password = $_POST['password'];
 
