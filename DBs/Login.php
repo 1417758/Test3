@@ -11,7 +11,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 $sql = "SELECT uid FROM users WHERE username='$username' and password='$password'";
-$queryResult = mysqli_query($db, $sql);
+$queryResult = mysqli_query($db2, $sql);
 
 if (mysqli_num_rows($queryResult) == 1) {
     header("location: home.php"); // Redirecting To another Page
