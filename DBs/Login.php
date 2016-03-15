@@ -18,6 +18,7 @@ if (mysqli_num_rows($queryResult) == 1) {
 } else {
     echo "Incorrect username or password!". "<br>";
     $d_start = strtotime(time, now);
+    echo $d_start. $d_start.type_class() .  "<br>";
     echo date('h:i:s') . "<br>";
 
     //sleep for 15 seconds
@@ -27,6 +28,7 @@ if (mysqli_num_rows($queryResult) == 1) {
 
     //start again
     $d_end = strtotime(time, now);
+    echo $d_end . $d_end.type_class() . "<br>";
     echo date('h:i:s') . "<br>";
 
     $diff = abs(strtotime($d_end) - strtotime($d_start));
