@@ -20,7 +20,7 @@ if (mysqli_num_rows($queryResult) == 1) {
     //ERROR $d_start = strtotime(time, now); //strtotime ERROR it stores an empty variable
     $d_start = date('h:i:s') ;
     echo date('h:i:s') . "<br>";
-    echo "varible is: " . $d_start . "   " . $d_start.type_class() . "<br>"; //. $d_start.type_class()
+    echo "varible is: " . $d_start . "   " . gettype($d_start) . "<br>"; //. $d_start.type_class()
 
     //sleep for 15 seconds
     ob_flush();
@@ -31,7 +31,7 @@ if (mysqli_num_rows($queryResult) == 1) {
     //ERROR $d_end = strtotime(time, now);//strtotime ERROR it stores an empty variable
     $d_end = date('h:i:s') ;
     echo date('h:i:s') . "<br>";
-    echo "varible is: " . $d_end . "   " .  $d_end.type_class(). "<br>"; //. $d_end.type_class()
+    echo "varible is: " . $d_end . "   " .  gettype($d_end). "<br>"; //. $d_end.type_class()
 
     $diff = abs(strtotime($d_end) - strtotime($d_start));
     $seconds = floor(($diff - $years * 365 * 60 * 60 * 24 - $months * 30 * 60 * 60 * 24 - $days * 60 * 60 * 24 - $hours * 60 * 60 - $minuts * 60));
