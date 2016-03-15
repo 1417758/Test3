@@ -19,6 +19,7 @@
         <label>Password:</label><br>
         <input type="password" name="password" placeholder="password"/>
         <br><br>
+    <?phpecho "you are here! index page";?>
         <input type="submit" name="submit" value="login"/>
     </form>
     <div class="error"><?php echo $error;?><?php echo $username; echo
