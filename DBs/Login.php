@@ -21,13 +21,13 @@ if (mysqli_num_rows($queryResult) == 1) {
     $d_start = date('h:i:s');
     echo date('h:i:s') . "<br>";
     echo "varible is: " . $d_start . "   " . gettype($d_start) . "<br>"; //. $d_start.type_class()
-
+/*
     //sleep for 15 seconds
     ob_flush();
     flush();
     sleep(15);
-
-
+    ob_end_flush();
+*/
     //ERROR $d_end = strtotime(time, now);//strtotime ERROR it stores an empty variable
     $d_end = date('h:i:s');
     echo date('h:i:s') . "<br>";
@@ -37,7 +37,7 @@ if (mysqli_num_rows($queryResult) == 1) {
     $seconds = floor(($diff - $years * 365 * 60 * 60 * 24 - $months * 30 * 60 * 60 * 24 - $days * 60 * 60 * 24 - $hours * 60 * 60 - $minuts * 60));
 
     echo "Did you wait 15 secs? \n Your waited exactly: " . $seconds . " secs";
-    ob_end_flush();
+
     // header("location: index.php");
 }
 
