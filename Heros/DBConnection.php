@@ -7,7 +7,8 @@ $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 $db2 = mysqli_connect('Database=acsm_0c1b561097cfd9e;Data Source=ap-cdbr-azure-east-c.cloudapp.net;User Id=b592f05b3b6e2e;Password=4e021d86');
 
 // test if connection was established, and print any errors
-if ($db -> connect_error) {
-    die('Connectfailed['.$db -> connect_error.']');
+if (mysqli_connect_errno())
+{
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 ?>
