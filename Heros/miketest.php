@@ -6,6 +6,7 @@
  * Time: 10:05
  */
 include ("DBConnection.php");
+"<br/>";
 echo "Mike Test1";
 
 $sql_query = "SELECT * FROM marvelmovies";
