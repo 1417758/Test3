@@ -5,6 +5,6 @@
  * Date: 22/03/2016
  * Time: 10:05
  */
-echo "Mike Test";
+echo "Mike Test!";
 
 ?>
