@@ -10,7 +10,7 @@ include("DBConnection.php");
 echo "Mike Test51 million";
 
 $sql_query = "SELECT * FROM marvelmovies";
-$result = $db2->query($sql_query);
+$result = $db1->query($sql_query);
 while ($row = $result->fetch_array()) {
     $a = $row['title'];
 
