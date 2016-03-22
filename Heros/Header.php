@@ -17,6 +17,8 @@
 <body>
 <!--START OF HEADER -->
 <header>
+    <h1>Hello Heros</h1>
+    <!--
     <section>
         <img id="figHeader" src="assets/csdmlogo.png" alt="logo">
     </section>
@@ -28,6 +30,6 @@
         <li><a href="...php">X-Men Movies</a></li>
     </ul>
 
-
+-->
 </header>
 <!--END OF HEADER -->

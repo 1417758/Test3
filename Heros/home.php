@@ -7,7 +7,7 @@ include("Header.php");
 <!--START OF MAIN -->
 <main class="grid-container">
 
-    <h1>Hello Heros</h1>
+    <h2>Hello Heros Again from main</h2>
 
 </main>
 <!--END OF MAIN -->
