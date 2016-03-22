@@ -8,8 +8,8 @@ define('DB_DATABASE', 'MySqlDB');
 $db2 = mysqli_connect('Database=acsm_0c1b561097cfd9e;Data Source=ap-cdbr-azure-east-c.cloudapp.net;User Id=b592f05b3b6e2e;Password=4e021d86');
 
 // test if connection was established, and print any errors
-if (mysqli_connect_errno())
-{
+if (mysqli_connect_errno()) {
+    echo "error 1";
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
@@ -21,6 +21,7 @@ $db1 = new mysqli(
 );
 // test if connection was established, and print any errors
 if (!$db1) {
+    echo "error 2";
     die('Connect Error: ' . mysqli_connect_errno());
 }
 
