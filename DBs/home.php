@@ -1,14 +1,7 @@
 <?php
 include("Header.php");
 ?>
-<!--START OF MAIN -->
-<main class="grid-container">
 
-    <h1>Hello Heros</h1>
-
-</main>
-<!--END OF MAIN -->
-
-<?php
-include("footer.php");
-?>
+<h1>Hello you have successfully logged into the database</h1>
+</body>
+</html>
