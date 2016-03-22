@@ -9,7 +9,7 @@ include ("DBConnection.php");
 "<br/>";
 echo "Mike Test5";
 
-$sql_query = "SELECT * FROM marvelmovies";
+$sql_query = "SELECT title FROM marvelmovies";
 $result = $db2->query($sql_query);
 while($row = $result->fetch_array())
 {
