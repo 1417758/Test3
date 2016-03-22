@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <?php
-    include("DBConnection.php.php");
     include("queries.php");
     ?>
 
