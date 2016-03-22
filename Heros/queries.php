@@ -10,7 +10,7 @@ include("DBConnection.php");
 
 function writeMsg($db)
 {
-    echo "Hello world!";
+    echo "Hello world2!";
 
 // create a SQL query as a string
     $sql_query = "SELECT * FROM superheros WHERE superpower LIKE '%laser%'";
