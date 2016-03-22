@@ -8,7 +8,7 @@ include("Header.php");
 <main class="grid-container">
 
     <h2>Hello Heros Again from main</h2>
-    <p>writeMsg(); // call the function</p>
+    <p><? writeMsg(); ?>// call the function</p>
 
 </main>
 <!--END OF MAIN -->
