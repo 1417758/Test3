@@ -7,7 +7,7 @@
  */
 include("DBConnection.php");
 "<br/>";
-echo "Mike Test5";
+echo "Mike Test51";
 
 $sql_query = "SELECT title FROM marvelmovies";
 $result = $db2->query($sql_query);
