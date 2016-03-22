@@ -14,10 +14,10 @@ if (mysqli_connect_errno()) {
 }
 */
 $db1 = new mysqli(
-    "ap-cdbr-azure-east-c.cloudapp.net",
-    "b592f05b3b6e2e",
-    "4e021d86",
-    "acsm_0c1b561097cfd9e"
+    "us-cdbr-azure-southcentral-e.cloudapp.net",
+    "be31e1c134797a",
+    "d1447901",
+    "MY1417758"
 );
 // test if connection was established, and print any errors
 if (!$db1) {

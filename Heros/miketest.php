@@ -7,9 +7,9 @@
  */
 include("DBConnection.php");
 "<br/>";
-echo "Mike Test51";
+echo "Mike Test51 million";
 
-$sql_query = "SELECT title FROM marvelmovies";
+$sql_query = "SELECT * FROM marvelmovies";
 $result = $db2->query($sql_query);
 while ($row = $result->fetch_array()) {
     $a = $row['title'];
@@ -17,9 +17,6 @@ while ($row = $result->fetch_array()) {
     echo " <h3> {$a} </h3> ";
 }
 
-$sql = "SELECT uid FROM users WHERE username='$username' and password='$password'";
-$queryResult = mysqli_query($db1, $sql);
-echo " <h3> {$queryResult} </h3> ";
-?>
+
 
 ?>
