@@ -3,6 +3,7 @@
 <head>
     <?php
     include("DBConnection.php.php");
+    include("queries.php");
     ?>
 
     <meta charset="UTF-8">
