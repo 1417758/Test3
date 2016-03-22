@@ -7,14 +7,16 @@
  */
 include("DBConnection.php");
 "<br/>";
-echo "Mike Test51 million";
+echo "Mike Test52";
 
 $sql_query = "SELECT * FROM marvelmovies";
-$result = $db1->query($sql_query);
-while ($row = $result->fetch_array()) {
+$result = $db->query($sql_query);
+while ($row = $result->fetch_array()){
     $a = $row['title'];
+    $b = $row['yearReleased'];
 
-    echo " <h3> {$a} </h3> ";
+    echo "<p>{$a}</p>";
+    echo "<h3>" . $b . "</h3>";
 }
 
 
