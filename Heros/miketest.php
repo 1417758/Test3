@@ -15,9 +15,8 @@ while($row = $result->fetch_array())
 {
     $a = $row['title'];
 
-    echo "<article>
-            <h3> {$a} </h3>
-          </article>";
+    echo " <h3> {$a} </h3>
+          ";
 }
 
 $sql = "SELECT uid FROM users WHERE username='$username' and password='$password'";
