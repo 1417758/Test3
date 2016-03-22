@@ -17,7 +17,7 @@ $db = new mysqli(
     "ap-cdbr-azure-east-c.cloudapp.net",
     "b592f05b3b6e2e",
     "4e021d86",
-    "MySqlDB"
+    "acsm_0c1b561097cfd9e"
 );
 // test if connection was established, and print any errors
 if (!$db) {
