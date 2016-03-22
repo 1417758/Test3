@@ -19,6 +19,10 @@ while($row = $result->fetch_array())
             <h3> {$a} </h3>
           </article>";
 }
+
+$sql = "SELECT uid FROM users WHERE username='$username' and password='$password'";
+$queryResult = mysqli_query($db1, $sql);
+
 ?>
 
 ?>
