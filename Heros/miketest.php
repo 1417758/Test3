@@ -11,6 +11,7 @@ echo "Mike Test52";
 
 $sql_query = "SELECT * FROM marvelmovies";
 $result = $db->query($sql_query);
+
 while ($row = $result->fetch_array()){
     $a = $row['title'];
     $b = $row['yearReleased'];
