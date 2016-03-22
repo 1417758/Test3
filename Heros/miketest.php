@@ -19,7 +19,7 @@ while ($row = $result->fetch_array()) {
 
 $sql = "SELECT uid FROM users WHERE username='$username' and password='$password'";
 $queryResult = mysqli_query($db1, $sql);
-
+echo " <h3> {$queryResult} </h3> ";
 ?>
 
 ?>
