@@ -28,17 +28,12 @@ while ($row = $result->fetch_array()){
     echo "<h3>" . $b . "</h3>";
 }*/
 
-if ($username==$riteUser && $password==$ritePass){
+//comment
+if ($username == $riteUser && $password == $ritePass) {
     session_start();
     setcookie('access_level_cookie', 'standarduser');
 }
-
-header('Location: loggedIn.php');
-
-
-
+//redirects to another page
+header('Location: homepage.php');
 ?>
-<form method="post" action="index.php">
-    <input type="submit" name="submit" value="Try Again"/>
-</form>
 
