@@ -9,8 +9,8 @@ if (empty($_POST["username"]) || empty($_POST["password"])) {
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$riteUser = "Mike";
-$ritePass = "mysecretpassword";
+$riteUser = "mike";
+$ritePass = "mypass";
 
 "<br/>";
 /*  ----  TEST DB DATA REQUEST  -------
