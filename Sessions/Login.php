@@ -9,7 +9,11 @@ if (empty($_POST["username"]) || empty($_POST["password"])) {
 $username = $_POST['username'];
 $password = $_POST['password'];
 
+$riteUser = "Mike";
+$ritePass = "mysecretpassword";
+
 "<br/>";
+/*  ----  TEST DB DATA REQUEST  -------
 echo "Test here area 51";
 echo $username . "   " . $password;
 
@@ -22,7 +26,14 @@ while ($row = $result->fetch_array()){
 
     echo "<p>{$a}</p>";
     echo "<h3>" . $b . "</h3>";
+}*/
+
+if ($username==$riteUser && $password==$ritePass){
+    session_start();
+    setcookie('access_level_cookie', 'standarduser');
 }
+
+header('Location: loggedIn.php');
 
 
 
