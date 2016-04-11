@@ -31,10 +31,10 @@ while ($row = $result->fetch_array()){
 }*/
 
 //comment
-if ($username == $riteUser && $password == $ritePass) {
-    session_start();
+//if ($username == $riteUser && $password == $ritePass) {
+    //session_start();
     setcookie('access_level_cookie', 'standarduser');
-}
+//}
 //redirects to another page
 header('Location: homepage.php');
 ?>
