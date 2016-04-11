@@ -24,7 +24,5 @@ function displayAccessLevelInformation($accessLevel)
 }
 
 ?>
-<form method="post" action="index.php">
-    <input type="submit" name="submit" value="Try Me"/>
-</form>
+
 
