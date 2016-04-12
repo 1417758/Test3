@@ -71,7 +71,7 @@ if ($username == $riteUser && $password == $ritePass) {
     <?
     // loop through the superglobal GET array
     foreach ($_GET as $key => $value){
-        PrintKeyAndValue($key.$key, $value);
+        PrintKeyAndValue($key, $value);
     }
 
 }
@@ -80,7 +80,7 @@ elseif ($_SERVER['REQUEST_METHOD'] === 'POST')
 {
     // loop through the superglobal POST array
     foreach ($_POST as $key => $value){
-        PrintKeyAndValue($key.$key, $value);
+        PrintKeyAndValue($key, $value);
     }
 }
 
