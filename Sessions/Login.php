@@ -10,7 +10,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 echo "you are entered the wrong credentials!";
 echo "<br/>";
-echo $username . "\t"."\t". "\t". $password;
+echo $username . "\t" . "\t" . "\t" . $password;
 
 $riteUser = "mike";
 $ritePass = "mypass";
@@ -30,6 +30,7 @@ while ($row = $result->fetch_array()){
     echo "<p>{$a}</p>";
     echo "<h3>" . $b . "</h3>";
 }*/
+//wrong way
 //echo "<a href=\"http://example.com/search.html?query=cat&type=image\">fjytrj</a>";
 
 //check the correct user logged in (hard coded)
@@ -40,11 +41,27 @@ if ($username == $riteUser && $password == $ritePass) {
     header('Location: homepage.php');
 }
 ?>
-<!-- rediret to index -->
+<!-- redirect to index -->
 <form method="post" action="index.php">
-    <input type="submit" name="submit" value="Try Again" />
+    <input type="submit" name="submit" value="Try Again"/>
 </form>
+<!--
+    <a href="http://example.com/search.html?query=cat&type=image">fjytrj</a>
+-->
+<a href="<? echo "{$_SERVER['PHP_SELF']}"?>query=cat&type=image">fjytrj</a>
 
-<a href="http://example.com/search.html?query=cat&type=image">fjytrj</a>
 
+<?php if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    ?>
+    <form action="<? echo $_SERVER["PHP_SELF"] ?>" method="post">
 
+        <label>Forename</label>
+        <input type="text" name="forename">
+        <label>Surname</label>
+        <input type="text" name="surname">
+
+        <p><input type="submit" value="Submit"></p>
+    </form>
+    <?
+}
+?>
