@@ -8,7 +8,7 @@ if (empty($_POST["username"]) || empty($_POST["password"])) {
 //echo "you are here3! login page";
 $username = $_POST['username'];
 $password = $_POST['password'];
-
+echo "you are entered the wrong credentials!";
 echo $username . $password;
 
 $riteUser = "mike";
@@ -37,6 +37,11 @@ if ($username == $riteUser && $password == $ritePass) {
     //redirects to another page
     header('Location: homepage.php');
 }
-
 ?>
+//rediret to index
+<form method="post" action="index.php">
+    <input type="submit" name="submit" value="Try Again" />
+</form>
+
+
 
