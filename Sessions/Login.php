@@ -66,15 +66,12 @@ if ($username == $riteUser && $password == $ritePass) {
         <p><input type="submit" value="Submit"></p>
     </form>
 
-
-
     <?
     // loop through the superglobal GET array
     foreach ($_GET as $key => $value){
         print($key);
         echo "<br/>";
         print($value);
-
     }
 
 
@@ -82,7 +79,7 @@ if ($username == $riteUser && $password == $ritePass) {
 //otherwise print Post stuff (data entered to form)
 elseif ($_SERVER['REQUEST_METHOD'] === 'POST')
 {
-    // loop through the superglobal GET array
+    // loop through the superglobal POST array
     foreach ($_POST as $key => $value){
         print($key);
         echo "<br/>";
