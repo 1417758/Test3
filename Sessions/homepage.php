@@ -26,6 +26,15 @@ function displayAccessLevelInformation($accessLevel)
     <input type="text" name="title" value="John&John ARR Haulage" readonly disabled size="40">
     <br>
     <input type="email" name="email" autocomplete="off" autofocus>
+    <br>
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+        <option value="cat">
+        <option value="dog">
+        <option value="alien">
+        <option value="monster">
+        <option value="bambi">
+    </datalist>
 
     <input type="submit" value="Submit">
     <input type="submit" formmethod="post" formaction="demo_post.asp" value="Submit using POST">
