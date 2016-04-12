@@ -30,7 +30,7 @@ while ($row = $result->fetch_array()){
     echo "<p>{$a}</p>";
     echo "<h3>" . $b . "</h3>";
 }*/
-echo "<a href=\"http://example.com/search.html?query=cat&type=image\">fjytrj</a>";
+//echo "<a href=\"http://example.com/search.html?query=cat&type=image\">fjytrj</a>";
 
 //check the correct user logged in (hard coded)
 if ($username == $riteUser && $password == $ritePass) {
@@ -45,5 +45,6 @@ if ($username == $riteUser && $password == $ritePass) {
     <input type="submit" name="submit" value="Try Again" />
 </form>
 
+<a href="http://example.com/search.html?query=cat&type=image">fjytrj</a>
 
 
