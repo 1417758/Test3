@@ -29,6 +29,7 @@ function displayAccessLevelInformation($accessLevel)
 
     <input type="submit" value="Submit">
     <input type="submit" formmethod="post" formaction="demo_post.asp" value="Submit using POST">
+    <input type="submit" formtarget="_blank" value="Submit to a new window">
 </form>
 
 
