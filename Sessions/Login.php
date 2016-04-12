@@ -76,5 +76,13 @@ if ($username == $riteUser && $password == $ritePass) {
         print($value);
 
     }
+
+    // loop through the superglobal GET array
+    foreach ($_POST as $key => $value){
+        print($key);
+        echo "<br/>";
+        print($value);
+
+    }
 }
 ?>
