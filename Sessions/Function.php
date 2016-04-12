@@ -25,7 +25,7 @@ function PrintKeyAndValue($key, $value)
     print("<li>");
     print("key: " . $key);
     print("</li>");
-    echo "<br/>";
+    print "<br/>";
     print("<li>");
     print("value: " . $value);
     print("</li>");
