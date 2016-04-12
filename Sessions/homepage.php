@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1417758
- * Date: 11/04/2016
- * Time: 10:29
- */
+include("Function.php");
 
 //comment
 session_start();
