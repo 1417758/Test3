@@ -4,7 +4,8 @@ include("Function.php");
 //comment
 session_start();
 $accessLevel = ($_COOKIE['access_level_cookie']);
-echo $accessLevel;"<br/>";
+echo $accessLevel;
+"<br/>";
 
 //invoke function
 displayAccessLevelInformation2($accessLevel);
@@ -21,5 +22,13 @@ function displayAccessLevelInformation($accessLevel)
 }
 */
 ?>
+<form id="form1" autocomplete="on" action="<? echo $_SERVER["PHP_SELF"] ?>" method="get">
+    <input type="text" name="title" value="John&John ARR Haulage" readonly disabled size="40">
+    <br>
+    <input type="email" name="email" autocomplete="off" autofocus>
+
+    <input type="submit" value="Submit">
+    <input type="submit" formmethod="post" formaction="demo_post.asp" value="Submit using POST">
+</form>
 
 
