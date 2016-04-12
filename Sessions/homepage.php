@@ -12,9 +12,9 @@ $accessLevel = ($_COOKIE['access_level_cookie']);
 echo $accessLevel;"<br/>";
 
 //invoke function
-displayAccessLevelInformation($accessLevel);"<br/>";
+displayAccessLevelInformation2($accessLevel);"<br/>";
 
-//function
+/*function (GO TO Functions.php)
 function displayAccessLevelInformation($accessLevel)
 {
     if ($accessLevel == "standarduser") {
@@ -24,7 +24,7 @@ function displayAccessLevelInformation($accessLevel)
         echo "<p style=\"background-color:palevioletred\">You now have access to additional administrative features</p>";
     }
 }
-
+*/
 ?>
 
 

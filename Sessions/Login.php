@@ -71,12 +71,8 @@ if ($username == $riteUser && $password == $ritePass) {
     <?
     // loop through the superglobal GET array
     foreach ($_GET as $key => $value){
-        print($key);
-        echo "<br/>";
-        print($value);
-        echo "<br/>";
+        PrintKeyAndValue($key.$key, $value);
     }
-
 
 }
 //otherwise print Post stuff (data entered to form)
