@@ -72,6 +72,7 @@ if ($username == $riteUser && $password == $ritePass) {
         print($key);
         echo "<br/>";
         print($value);
+        echo "<br/>";
     }
 
 
@@ -84,7 +85,7 @@ elseif ($_SERVER['REQUEST_METHOD'] === 'POST')
         print($key);
         echo "<br/>";
         print($value);
-
+        echo "<br/>";
     }
 }
 
