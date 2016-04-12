@@ -9,8 +9,8 @@ if (empty($_POST["username"]) || empty($_POST["password"])) {
 $username = $_POST['username'];
 $password = $_POST['password'];
 echo "you are entered the wrong credentials!";
-"<br/>";
-echo $username . "\t" . $password;
+"<br/>";"<br/>";
+echo $username . "\t"."\t". "\t". $password;
 
 $riteUser = "mike";
 $ritePass = "mypass";
