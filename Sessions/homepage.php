@@ -23,11 +23,11 @@ function displayAccessLevelInformation($accessLevel)
 */
 ?>
 <form id="form1" autocomplete="on" action="<? echo $_SERVER["PHP_SELF"] ?>" method="get">
-    <input type="text" name="title" value="John&John ARR Haulage" readonly disabled size="40">
+    name <input type="text" name="title" value="John&John ARR Haulage" readonly disabled size="40">
     <br>
-    <input type="email" name="email" autocomplete="off" autofocus>
+    email <input type="email" name="email" autocomplete="off" autofocus>
     <br>
-    <input list="browsers" name="browser">
+    category <input list="browsers" name="browser">
     <datalist id="browsers">
         <option value="cat">
         <option value="dog">
@@ -35,7 +35,7 @@ function displayAccessLevelInformation($accessLevel)
         <option value="monster">
         <option value="bambi">
     </datalist>
-
+    comments <textarea rows="4" cols="25" name="shoeHelp_iptProb"></textarea>
     <input type="submit" value="Submit">
     <input type="submit" formmethod="post" formaction="demo_post.asp" value="Submit using POST">
     <input type="submit" formtarget="_blank" value="Submit to a new window">
