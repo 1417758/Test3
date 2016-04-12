@@ -11,7 +11,7 @@
 
 <div class="loginBox">
     <h3>Login Form</h3>
-    <h2>Pass to homepage = mike & mypass</h2>
+    <h4>Pass to homepage = mike & mypass</h4>
     <br><br>
 
     <form method="post" action="Login.php">
