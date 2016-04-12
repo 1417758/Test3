@@ -6,9 +6,10 @@
  * Time: 11:02
  */
 
-//function
+//function doesnt work on homepage
 function displayAccessLevelInformation2($accessLevel)
 {
+    echo $accessLevel;
     if ($accessLevel == "standarduser") {
         echo "<p style=\"background-color:lightgreen\">You are currently logged in as a standard user</p>";
     } elseif ($accessLevel == "root") {
