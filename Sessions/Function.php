@@ -18,11 +18,19 @@ function displayAccessLevelInformation2($accessLevel)
 }
 
 //function
-function PrintKeyAndValue($key, $value )
+function PrintKeyAndValue($key, $value)
 {
-    print("key: ".$key);
+
+    print("<ul>");
+    print("<li>");
+    print("key: " . $key);
+    print("</li>");
     echo "<br/>";
-    print("value: ".$value);
+    print("<li>");
+    print("value: " . $value);
+    print("</li>");
+    print("</ul>");
+    print("</li>");
     echo "<br/><br/>";
 
 }
