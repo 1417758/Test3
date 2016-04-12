@@ -38,17 +38,6 @@ function displayAccessLevelInformation($accessLevel)
         <option value="monster">
         <option value="bambi">
     </datalist>
-
-    <input list="browsers" name="browser">
-    <datalist id="browsers">
-        <option value="Internet Explorer">
-        <option value="Firefox">
-        <option value="Chrome">
-        <option value="Opera">
-        <option value="Safari">
-    </datalist>
-
-
     <br/>
     comments <textarea rows="4" cols="25" name="shoeHelp_iptProb"></textarea>
     <br/>
