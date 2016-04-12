@@ -4,6 +4,7 @@ include("../Heros/DBConnection.php"); //Establishing connection with our databas
 //echo "you are here2! login page";
 if (empty($_POST["username"]) || empty($_POST["password"])) {
     echo "Both fields are required!";
+    echo "<br/>";
 }
 //echo "you are here3! login page";
 $username = $_POST['username'];
@@ -48,6 +49,8 @@ if ($username == $riteUser && $password == $ritePass) {
 <!--
     <a href="http://example.com/search.html?query=cat&type=image">fjytrj</a>
 -->
+<!-- this hyperlink recursive call to the same page adding a GET method
+    and also -->
 <a href="<? echo "{$_SERVER['PHP_SELF']}"?>?query=cat&type=image">fjytrj</a>
 
 
@@ -66,6 +69,7 @@ if ($username == $riteUser && $password == $ritePass) {
 
 
     <?
+    // loop through the superglobal GET array
     foreach ($_GET as $key => $value){
         print($key);
         echo "<br/>";
