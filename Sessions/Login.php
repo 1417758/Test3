@@ -62,6 +62,12 @@ if ($username == $riteUser && $password == $ritePass) {
 
         <p><input type="submit" value="Submit"></p>
     </form>
+
+
+
     <?
+    foreach ($_GET as $key => $value){
+
+    }
 }
 ?>
