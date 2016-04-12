@@ -52,7 +52,7 @@ if ($username == $riteUser && $password == $ritePass) {
 <!-- this hyperlink recursive call to the same page adding a GET method
     and also -->
 <a href="<? echo "{$_SERVER['PHP_SELF']}"?>?query=cat&type=image">fjytrj</a>
-
+<br/>
 
 <?php if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     ?>
@@ -69,7 +69,6 @@ if ($username == $riteUser && $password == $ritePass) {
     <?
     // loop through the superglobal GET array
     foreach ($_GET as $key => $value){
-        echo "<br/>";
         print($key);
         echo "<br/>";
         print($value);
@@ -82,7 +81,6 @@ elseif ($_SERVER['REQUEST_METHOD'] === 'POST')
 {
     // loop through the superglobal POST array
     foreach ($_POST as $key => $value){
-        echo "<br/>";
         print($key);
         echo "<br/>";
         print($value);
