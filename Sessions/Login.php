@@ -3,7 +3,7 @@
 include("../Heros/DBConnection.php"); //Establishing connection with our database
 //echo "you are here2! login page";
 if (empty($_POST["username"]) || empty($_POST["password"])) {
-    echo "Both fields are required.";
+    echo "Both fields are required!";
 }
 //echo "you are here3! login page";
 $username = $_POST['username'];
