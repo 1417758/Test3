@@ -53,7 +53,7 @@ if ($username == $riteUser && $password == $ritePass) {
 -->
 <!-- this hyperlink recursive call to the same page adding a GET method
     and also -->
-<a href="<? echo "{$_SERVER['PHP_SELF']}"?>?query=cat&type=image">fjytrj</a>
+<a href="<? echo "{$_SERVER['PHP_SELF']}"?>?query=cat&type=image?myhoose=none&voce=louca">fjytrj</a>
 <br/>
 
 <?php if ($_SERVER['REQUEST_METHOD'] === 'GET') {
