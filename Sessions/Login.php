@@ -39,7 +39,7 @@ if ($username == $riteUser && $password == $ritePass) {
     header('Location: homepage.php');
 }
 ?>
-//rediret to index
+<!-- rediret to index -->
 <form method="post" action="index.php">
     <input type="submit" name="submit" value="Try Again" />
 </form>
