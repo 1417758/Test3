@@ -48,7 +48,7 @@ if ($username == $riteUser && $password == $ritePass) {
 <!--
     <a href="http://example.com/search.html?query=cat&type=image">fjytrj</a>
 -->
-<a href="<? echo "{$_SERVER['PHP_SELF']}"?>query=cat&type=image">fjytrj</a>
+<a href="<? echo "{$_SERVER['PHP_SELF']}"?>?query=cat&type=image">fjytrj</a>
 
 
 <?php if ($_SERVER['REQUEST_METHOD'] === 'GET') {
