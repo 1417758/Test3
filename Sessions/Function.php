@@ -18,7 +18,7 @@ function displayAccessLevelInformation2($accessLevel)
 }
 
 //function
-function PrintKeyAndValue($key, $value )
+function PrintKeyAndValue(String $key, String $value )
 {
     print("key: ".$key);
     echo "<br/>";
