@@ -69,7 +69,7 @@ if ($username == $riteUser && $password == $ritePass) {
     foreach ($_GET as $key => $value){
         print($key);
         echo "<br/>";
-        print($key);
+        print($value);
 
     }
 }
