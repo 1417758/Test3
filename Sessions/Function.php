@@ -31,6 +31,6 @@ function PrintKeyAndValue($key, $value)
     print("</li>");
     print("</ul>");
     print("</li>");
-    echo "<br/><br/>";
+    print "<br/><br/>";
 
 }
