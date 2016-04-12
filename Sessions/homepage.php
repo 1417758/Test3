@@ -10,9 +10,11 @@
 session_start();
 $accessLevel = ($_COOKIE['access_level_cookie']);
 echo $accessLevel;"<br/>";
-echo displayAccessLevelInformation($accessLevel);"<br/>";
 
-//comment
+//invoke function
+displayAccessLevelInformation($accessLevel);"<br/>";
+
+//function
 function displayAccessLevelInformation($accessLevel)
 {
     if ($accessLevel == "standarduser") {
