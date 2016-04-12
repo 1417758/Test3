@@ -1,6 +1,8 @@
 <?php
 //echo "you are here1! login page";
-include("../Heros/DBConnection.php"); //Establishing connection with our database
+//Establishing connection with our database
+include("../Heros/DBConnection.php");
+include("Function.php");
 //echo "you are here2! login page";
 if (empty($_POST["username"]) || empty($_POST["password"])) {
     echo "Both fields are required!";
@@ -82,10 +84,7 @@ elseif ($_SERVER['REQUEST_METHOD'] === 'POST')
 {
     // loop through the superglobal POST array
     foreach ($_POST as $key => $value){
-        print($key);
-        echo "<br/>";
-        print($value);
-        echo "<br/>";
+        PrintKeyAndValue($key, $value);
     }
 }
 
