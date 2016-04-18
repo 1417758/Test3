@@ -1,9 +1,23 @@
-Database Name: MY1417758
-Location: South Central US
-Hostname: us-cdbr-azure-southcentral-e.cloudapp.net
-Port: 3306
-Username: be31e1c134797a
-Password: d1447901
-Connection String: Database=MY1417758;Data Source=us-cdbr-azure-southcentral-e.cloudapp.net;User Id=be31e1c134797a;Password=d1447901
-Subscription Id: 236b36b6-9869-4781-8634-0590a2a55689
-Subscription Name: DreamSpark
+Database Name
+MY1417758
+
+Location
+South Central US
+
+Hostname
+us-cdbr-azure-southcentral-e.cloudapp.net
+
+Port
+3306
+
+Username
+be31e1c134797a
+
+Password
+d1447901
+
+Connection String
+Database=MY1417758;Data Source=us-cdbr-azure-southcentral-e.cloudapp.net;User Id=be31e1c134797a;Password=d1447901
+
+Subscription Id
+236b36b6-9869-4781-8634-0590a2a55689

@@ -32,10 +32,19 @@ echo "My name is: " . $myName . " and my age is: " . $myAge;
     <   (Less	than)
     >   (Greater than)
 */
+?>
+    <form action="<? echo $_SERVER["PHP_SELF"] ?>" method="post">
 
+        <label>Please enter your First Name</label>
+        <input type="text" name="forename">
+        <p><input type="submit" value="Submit"></p>
+    </form>
+
+<?php
+$firstName = $_POST['forename'];;
 $name = "Edgar";
-if ($name == $myName) {
-    print "this is print command";
+if ($firstName == $myName || $firstName ) {
+    print "if you name is Edgar this is printed";
 } else {
     echo "this is echo command";
 }
@@ -43,8 +52,8 @@ if ($name == $myName) {
 echo $name;
 
 echo "<br/>WE ARE HERE!!!!! <br/>";
-echo "your name is:  " .  $_POST["shoeHelp_iptName"] . "<br/>";
-echo "Your email address is:  " .  $_POST["shoeHelp_iptEmail"];
+echo "your name is:  " . $_POST["shoeHelp_iptName"] . "<br/>";
+echo "Your email address is:  " . $_POST["shoeHelp_iptEmail"];
 
 ?>
 
