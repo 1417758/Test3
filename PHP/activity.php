@@ -3,6 +3,7 @@
 <head>
 </head>
 <body>
+<main class="grid-container">
 <div class="grid-45">
     <?php
     echo "<br/><br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
@@ -86,7 +87,7 @@
     }
     ?>
 </div>
-<div style="width:50%; float: right">
+<div class="grid-45" style="float: right">
     <?php
     echo "<br/>";
     echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
@@ -135,5 +136,6 @@
     ?>
 
 </div>
+</main>
 </body>
 </html>
