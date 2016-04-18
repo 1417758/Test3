@@ -91,13 +91,18 @@ echo $myArray[1];
 unset($myArray[2]);//removes item on the index indicated
 echo $myArray[2] = "me";
 
-$provActs = array("Specs", "Drugs", "Rock&Roll", "Mugs");
-
+$provActs = array("Specs", "Drugs", "Rock&Roll", "Mugs", "Sausage Rolls");
+echo length($provActs);
 echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";
 foreach ($provActs as $x) {
     if ($provActs[0] == $x)
+        //print without adding a new line
         print $x;
     elseif ($x == $mug)
+        //replace mugs by hugs
+        echo "<br/>" . $provActs[3] = "Hugs";
+    elseif ($provActs[length($provActs)])
+        //replace mugs by hugs
         echo "<br/>" . $provActs[3] = "Hugs";
     else
         print "<br/>" . $x;
