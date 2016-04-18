@@ -92,7 +92,7 @@ unset($myArray[2]);//removes item on the index indicated
 echo $myArray[2] = "me";
 
 $provActs = array("Specs", "Drugs", "Rock&Roll", "Mugs", "Sausage Rolls");
-echo count($provActs);
+echo "<br/>".count($provActs);
 echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";
 foreach ($provActs as $x) {
     if ($provActs[0] == $x)
@@ -101,9 +101,9 @@ foreach ($provActs as $x) {
     elseif ($x == $mug)
         //replace mugs by hugs
         echo "<br/>" . $provActs[3] = "Hugs";
-  //  elseif ($x == $provActs[count($provActs)-1])
+    elseif ($x == $provActs[count($provActs)-1])
         //replace mugs by hugs
-   //     unset($provActs[count($provActs)-1]);
+        unset($provActs[count($provActs)-1]);
     else
         print "<br/>" . $x;
 }
