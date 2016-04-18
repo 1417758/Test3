@@ -47,9 +47,10 @@ if ($firstName == $myName || $firstName == $name) {
     print  "\n your name is either Edgar or Rachie";
 } else {
     echo "\n your name is not on the system";
+    echo $firstName;
 }
 
-echo $name;
+
 
 echo "<br/>WE ARE HERE!!!!! <br/>";
 echo "your name is:  " . $_POST["shoeHelp_iptName"] . "<br/>";
