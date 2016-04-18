@@ -99,6 +99,14 @@
     unset($myArray[2]);//removes item on the index indicated
     echo $myArray[2] = "me";
 
+    //array_push() takes two arguments: an array, and an element to add to the end of that array
+    $fav_bands = array();
+    array_push($fav_bands, "Katy Perry");
+    array_push($fav_bands, "The Peapods");
+    array_push($fav_bands, "Nickelback");
+    sort($fav_bands);
+    print count($fav_bands);
+
     $provActs = array("Specs", "Drugs", "Rock&Roll", "Mugs", "Sausage Rolls");
     echo "<br/>" . count($provActs);
     echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";

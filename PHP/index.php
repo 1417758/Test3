@@ -53,7 +53,7 @@ if ($firstName == $myName || $firstName == $name) {
 
 
 echo "<br/>we are here!!!!! <br/>";
-echo "<br/>/*---------  BUILT-IN FUNCTIONS  -------------- */<br/>";
+echo "<br/>/*---------  FUNCTIONS  -------------- */<br/>";
 // get the length of a string and
 // print it to the screen
 $length = strlen("david");
@@ -69,6 +69,11 @@ print rand();
 // prints a number between 1 and 10
 print rand(1,10);
 
+function squareValue($number) {
+    echo $number * $number;
+}
+$n = 6;
+squareValue($n); // echos 36
 ?>
 
 
