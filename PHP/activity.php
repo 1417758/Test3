@@ -104,10 +104,10 @@
     array_push($fav_bands, "Katy Perry");
     array_push($fav_bands, "The Peapods");
     array_push($fav_bands, "Nickelback");
-    sort($fav_bands);
-    print count($fav_bands);
+   // print count($fav_bands);
 
     $provActs = array("Specs", "Drugs", "Rock&Roll", "Mugs", "Sausage Rolls");
+    sort($provActs);
     echo "<br/>" . count($provActs);
     echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";
     foreach ($provActs as $x) {
