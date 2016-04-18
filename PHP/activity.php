@@ -16,8 +16,15 @@ $myAge = "54";
 
 //test - print input
 print("the username is: " . $myName . " and my age is: " . $myAge);
-$age = 17;
 echo "<br/><br/>/*---------  IF CONDITION  -------------- */<br/>";
+?>
+<form action="<? echo $_SERVER["PHP_SELF"] ?>" method="get">
+    <label>Please enter your Age</label>
+    <input type="text" name="age">
+    <p><input type="submit" value="Submit"></p>
+</form>
+<?php
+$age = $_GET['age'];
 //wot is allowed
 if ($age < 16)
     print "Im sorry " . $name . " you arent allowed to buy anything!";
@@ -94,6 +101,7 @@ for ($i = 0; $i < 10; $i++)
 ?>
 <br/>
 <br/>
+
 <form id="formAct1" action="activity.php" method="get">
     Please enter the Number of days this month has:
     <input type="number" name="NumbDays" width="150px">

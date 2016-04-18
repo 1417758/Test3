@@ -22,7 +22,7 @@
 //variables
 $myName = "Rachie";
 $myAge = 19;
-echo "My name is: " . $myName . " and my age is: " . $myAge . "\n";
+echo "My name is: " . $myName . " and his/her age is: " . $myAge . "\n";
 
 /*  COMPARISONS
     != (Not	equal)
