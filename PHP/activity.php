@@ -19,6 +19,7 @@ $firstRound = FALSE;
 print("the username is: " . $myName . " and his/her age is: " . $myAge);
 echo "<br/><br/>/*---------  IF CONDITION  -------------- */<br/>";
 ?>
+<!-- NOTE: by refering the form to itself a postback action isnt invoked -->
 <form action="<? echo $_SERVER["PHP_SELF"] ?>" method="get">
     <label>Please enter your Age</label>
     <input type="text" name="age">
@@ -113,9 +114,9 @@ for ($i = 0; $i < 10; $i++)
 ?>
 <br/>
 <br/>
-
+<!-- NOTE: at runtime theres a postback action here -->
 <form id="formAct1" action="activity.php" method="get">
-    Please enter the Number of days this month has:
+    <h4>Please enter the Number of days in this month:</h4>
     <input type="number" name="NumbDays" width="150px">
     <input type="submit" value="Submit">
 </form>
