@@ -4,7 +4,7 @@
 </head>
 <body>
 <main class="grid-container">
-<div class="grid-45">
+<div class="grid-45" style="background-color: #782A7E">
     <?php
     echo "<br/><br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
     $mug = "Mugs";
@@ -87,7 +87,7 @@
     }
     ?>
 </div>
-<div class="grid-45" style="float: right">
+<div class="grid-45" style="float: right; background-color: yellow"">
     <?php
     echo "<br/>";
     echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
