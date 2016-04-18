@@ -5,7 +5,7 @@
 <body>
 
 <?php
-echo "<br/><br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
+echo "<br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
 $mug = "Mugs";
 $spec = "spec";
 $sausRoll = "sausage roll";
@@ -17,7 +17,7 @@ $firstRound = FALSE;
 
 //test - print input
 print("the username is: " . $myName . " and his/her age is: " . $myAge);
-echo "<br/><br/>/*---------  IF CONDITION  -------------- */<br/>";
+echo "<br/>/*---------  IF CONDITION  -------------- */<br/>";
 ?>
 <form action="<? echo $_SERVER["PHP_SELF"] ?>" method="get">
     <label>Please enter your Age</label>
@@ -48,7 +48,7 @@ print $result;
     $a && $b 	(And) 	TRUE if both $a and $b are TRUE.
     $a || $b 	(Or) 	TRUE if either $a or $b is TRUE.
 */
-echo "<br/><br/>/*---------  SWITCH CONDITION  -------------- */<br/>";
+echo "<br/>/*---------  SWITCH CONDITION  -------------- */<br/>";
 $numbHobbits = 2;
 switch ($numbHobbits) {
     case 1:
@@ -83,7 +83,7 @@ switch ($wantedDog) {
         break;
 }
 echo "<br/>";
-echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
+echo "<br/>/*---------  ARRAYS  -------------- */<br/>";
 $myArray = array("do", "re", "mi");
 echo $myArray[0];//prints 1st item of the array
 $myArray[1] = 1; //modifies position 1
@@ -93,7 +93,7 @@ echo $myArray[2] = "me";
 
 $provActs = array("Specs", "Drugs", "Rock&Roll", "Mugs");
 
-echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";
+echo "<br/>/*---------  LOOPS  -------------- */<br/>";
 foreach ($provActs as $x) {
     if ($provActs[0] == $x)
         print $x;
