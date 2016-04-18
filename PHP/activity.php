@@ -52,16 +52,16 @@ echo "<br/><br/>/*---------  SWITCH CONDITION  -------------- */<br/>";
 $numbHobbits = 2;
 switch ($numbHobbits) {
     case 1:
-        echo "1 sad hobitt";
+        echo "1 sad hobitt\n";
         break;
     case 2:
-        echo "2 happy hobbits";
+        echo "2 happy hobbits\n";
         break;
     case 3:
-        echo "3 hobbits are a crowd";
+        echo "3 hobbits are a crowd\n";
         break;
     default:
-        echo "All the hobbits have gone home";
+        echo "All the hobbits have gone home\n";
         break;
 }
 //$wantedDog = userInput;
