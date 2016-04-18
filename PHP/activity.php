@@ -4,7 +4,7 @@
 </head>
 <body>
 
-<div style="width 300px;lfloat: left; background-color: lightgoldenrodyellow">
+<div style="width 300px;float: left; background-color: lightgoldenrodyellow">
     <?php
     echo "<br/><br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
     $mug = "Mugs";
