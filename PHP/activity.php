@@ -4,7 +4,7 @@
 </head>
 <body>
 
-<div style="width 300px;float: left; background-color: lightcoral">
+<div style="width 300px;float: left; background-color: lightgoldenrodyellow">
     <?php
     echo "<br/><br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
     $mug = "Mugs";
@@ -87,7 +87,7 @@
     }
     ?>
 </div>
-<div style="width 300px;float: right; background-color: yellow"">
+<div style="width 300px;float: right; background-color: lightgoldenrodyellow"">
     <?php
     echo "<br/>";
     echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
