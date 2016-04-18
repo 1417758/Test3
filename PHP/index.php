@@ -74,11 +74,13 @@ echo "<br/>";
 print "random numb btw 1-10: ".rand(1,10);
 echo "<br/>";
 
+//my function
+$number =2;
 function squareValue($number) {
-    echo $number * $number;
+    echo "2*2: ". $number * $number;
 }
 $n = 6;
-squareValue($n); // echos 36
+echo "square of 6: ".squareValue($n); // echos 36
 ?>
 
 
