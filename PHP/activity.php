@@ -16,7 +16,7 @@ $myAge = "54";
 
 //test - print input
 print("the username is: " . $myName . " and my age is: " . $myAge);
-echo $age;
+$age = 17;
 echo "<br/><br/>/*---------  IF CONDITION  -------------- */<br/>";
 //wot is allowed
 if ($age < 16)
