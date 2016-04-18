@@ -52,18 +52,19 @@ echo "<br/><br/>/*---------  SWITCH CONDITION  -------------- */<br/>";
 $numbHobbits = 2;
 switch ($numbHobbits) {
     case 1:
-        echo "1 sad hobitt\n";
+        echo "1 sad hobitt";
         break;
     case 2:
-        echo "2 happy hobbits\n";
+        echo "2 happy hobbits";
         break;
     case 3:
-        echo "3 hobbits are a crowd\n";
+        echo "3 hobbits are a crowd";
         break;
     default:
-        echo "All the hobbits have gone home\n";
+        echo "All the hobbits have gone home";
         break;
 }
+echo "<br/>";
 //$wantedDog = userInput;
 $wantedDog = "mugs";//get user input
 switch ($wantedDog) {
@@ -80,7 +81,7 @@ switch ($wantedDog) {
         echo "\n you are very old!";
         break;
 }
-
+echo "<br/>";
 echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
 $myArray = array("do", "re", "mi");
 echo $myArray[0];//prints 1st item of the array
