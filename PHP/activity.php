@@ -65,20 +65,21 @@ switch ($numbHobbits) {
         break;
 }
 echo "<br/>";
+
 //$wantedDog = userInput;
 $wantedDog = "mugs";//get user input
 switch ($wantedDog) {
     case "specs":
-        echo "\n your are older than 16";
+        echo "\\n your are older than 16";
         break;
     case "mugs":
-        echo "\n your are older than 18";
+        echo "\\n your are older than 18";
         break;
     case "sausage roll":
-        echo "\n your are older than 21";
+        echo "\\n your are older than 21";
         break;
     default:
-        echo "\n you are very old!";
+        echo "\\n you are very old!";
         break;
 }
 echo "<br/>";
