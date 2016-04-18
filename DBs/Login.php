@@ -17,7 +17,7 @@ if (mysqli_num_rows($queryResult) == 1) {
     // Redirecting To another Page
     header("location: home.php");
 } else {
-    echo "Incorrect username or password!" . "<br>";
+    echo "<h2>Incorrect username or password!</h2>" . "<br>";
     //ERROR $d_start = strtotime(time, now); //strtotime ERROR it stores an empty variable
     $d_start = date('h:i:s');
     echo date('h:i:s') . "<br>";
