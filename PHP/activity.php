@@ -30,7 +30,7 @@ $age = $_GET['age'];
 //if ($_SERVER['REQUEST_METHOD'] === 'GET' and !empty($age))  {
 if (!empty($age))  {
     if ($age < 16)
-        print "Im sorry " . $myName . " you arent allowed to buy anything!";
+        print "<h4>Im sorry </h4>" . "<h4>".$myName."</h4>" . "<h4> you arent allowed to buy anything!</h4>";
     elseif ($age > 16 AND $age < 18)
         print "Hi " . $myName . " you are allowed to buy specs!";
     elseif ($age > 18 AND $age < 21)
