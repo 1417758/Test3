@@ -11,6 +11,7 @@ $spec = "spec";
 $sausRoll = "sausage roll";
 $myName = "Retard";
 $myAge = "54";
+$firstRound = FALSE;
 
 //add pop up here to request user name and age
 
@@ -27,7 +28,7 @@ echo "<br/><br/>/*---------  IF CONDITION  -------------- */<br/>";
 $age = $_GET['age'];
 //wot is allowed
 
-if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+if ($_SERVER['REQUEST_METHOD'] === 'GET' and $firstRound != TRUE) {
     if ($age < 16)
         print "Im sorry " . $myName . " you arent allowed to buy anything!";
     elseif ($age > 16 AND $age < 18)
