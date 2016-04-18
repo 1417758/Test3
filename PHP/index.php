@@ -78,6 +78,7 @@ echo "<br/>";
 $number =2;
 function squareValue($number) {
     echo "2*2 inside myFunction: ". $number * $number;
+    echo "<br/>";
 }
 $n = 6;
 echo "square of 6: ".squareValue($n); // echos 36
