@@ -87,7 +87,7 @@
     }
     ?>
 </div>
-<div style="width 300px;float: right; background-color: lightgoldenrodyellow"">
+<div style="width 500px;float: right; background-color: lightgoldenrodyellow"">
     <?php
     echo "<br/>";
     echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
