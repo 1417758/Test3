@@ -4,7 +4,7 @@
 </head>
 <body>
 <main class="grid-container">
-<div class="grid-30" style="background-color: #DBC9DF">
+<div class="grid-30" style="width 300px;background-color: lightgoldenrodyellow">
     <?php
     echo "<br/><br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
     $mug = "Mugs";
