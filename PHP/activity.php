@@ -86,7 +86,7 @@
     }
     ?>
 </div>
-<div class="grid-45" style="float: right; position: absolute; margin-top: 0px;">
+<div style="width:50%; float: right">
     <?php
     echo "<br/>";
     echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
