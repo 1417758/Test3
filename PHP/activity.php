@@ -3,8 +3,8 @@
 <head>
 </head>
 <body>
-<main class="grid-container">
-<div class="grid-30" style="width 300px;background-color: lightgoldenrodyellow">
+
+<div style="width 300px;lfloat: left; background-color: lightgoldenrodyellow">
     <?php
     echo "<br/><br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
     $mug = "Mugs";
@@ -87,7 +87,7 @@
     }
     ?>
 </div>
-<div class="grid-45" style="float: right; background-color: yellow"">
+<div style="width 300px;float: right; background-color: yellow"">
     <?php
     echo "<br/>";
     echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
@@ -136,6 +136,6 @@
     ?>
 
 </div>
-</main>
+
 </body>
 </html>
