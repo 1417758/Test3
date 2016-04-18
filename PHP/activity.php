@@ -15,7 +15,7 @@ $myAge = "54";
 //add pop up here to request user name and age
 
 //test - print input
-print("the username is: " . $myName . " and my age is: " . $myAge);
+print("the username is: " . $myName . " and his/her age is: " . $myAge);
 echo "<br/><br/>/*---------  IF CONDITION  -------------- */<br/>";
 ?>
 <form action="<? echo $_SERVER["PHP_SELF"] ?>" method="get">
