@@ -31,11 +31,11 @@ $age = $_GET['age'];
 if (!empty($age))  {
     if ($age < 16)
         $result = "<b>Im sorry </b>" . "<b>".$myName."</b>" . "<b> you arent allowed to buy anything!</b>";
-    elseif ($age > 16 AND $age < 18)
+    elseif ($age >= 16 AND $age < 18)
         $result = "<b>Hi </b>" . "<b>". $myName ."</b>" . "<b> you are allowed to buy specs!</b>";
-    elseif ($age > 18 AND $age < 21)
+    elseif ($age >= 18 AND $age < 21)
         $result = "<b>Hi </b>" . "<b>". $myName ."</b>" . "<b> you are allowed to buy specs and mugs</b>";
-    elseif ($age > 21)
+    elseif ($age >= 21)
         $result ="<b>Hi </b>" . "<b>". $myName ."</b>" . "<b> you are allowed to buy sausage roll!</b>";
 }
 print $result;
