@@ -15,7 +15,8 @@ $myAge = "54";
 //add pop up here to request user name and age
 
 //test - print input
-print("the user name is: " . $myName . " and my age is: " . $myAge);
+print("the username is: " . $myName . " and my age is: " . $myAge);
+echo $age;
 echo "<br/><br/>/*---------  IF CONDITION  -------------- */<br/>";
 //wot is allowed
 if ($age < 16)
