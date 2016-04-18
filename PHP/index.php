@@ -22,7 +22,7 @@
 //variables
 $myName = "Rachie";
 $myAge = 19;
-echo "My name is: " . $myName . " and my age is: " . $myAge;
+echo "My name is: " . $myName . " and my age is: " . $myAge . "<br/>";
 
 /*  COMPARISONS
     != (Not	equal)
@@ -43,10 +43,10 @@ echo "My name is: " . $myName . " and my age is: " . $myAge;
 <?php
 $firstName = $_POST['forename'];;
 $name = "Edgar";
-if ($firstName == $myName || $firstName ) {
-    print "if you name is Edgar this is printed";
+if ($firstName == $myName || $firstName == $name) {
+    print  "\n your name is either Edgar or Rachie";
 } else {
-    echo "this is echo command";
+    echo "\n your name is not on the system";
 }
 
 echo $name;
