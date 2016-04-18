@@ -109,7 +109,7 @@ foreach ($provActs as $x) {
 }
 
 for ($i = 0; $i < 10; $i++)
-    echo "<br/>" . ($i). "       " . ($i + 1);
+    echo "<br/>" . ($i). "   -    " . ($i + 1);
 ?>
 <br/>
 <br/>
