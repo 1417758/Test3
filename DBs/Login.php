@@ -14,7 +14,8 @@ $sql = "SELECT uid FROM users WHERE username='$username' and password='$password
 $queryResult = mysqli_query($db, $sql);
 
 if (mysqli_num_rows($queryResult) == 1) {
-    header("location: home.php"); // Redirecting To another Page
+    // Redirecting To another Page
+    header("location: home.php");
 } else {
     echo "Incorrect username or password!" . "<br>";
     //ERROR $d_start = strtotime(time, now); //strtotime ERROR it stores an empty variable
