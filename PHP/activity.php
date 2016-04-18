@@ -27,13 +27,13 @@ echo "<br/><br/>/*---------  IF CONDITION  -------------- */<br/>";
 $age = $_GET['age'];
 //wot is allowed
 if ($age < 16)
-    print "<h4>Im sorry </h4>" . $name . "<h4> you arent allowed to buy anything!</h4>";
+    print "<h4>Im sorry </h4>" . $myName . "<h4> you arent allowed to buy anything!</h4>";
 elseif ($age > 16 AND $age < 18)
-    print "<h4>Hi </h4>" . $name . "<h4> you are allowed to buy specs!</h4>";
+    print "<h4>Hi </h4>" . $myName . "<h4> you are allowed to buy specs!</h4>";
 elseif ($age > 18 AND $age < 21)
-    print "<h4>Hi </h4>" . $name . "<h4> you are allowed to buy specs and mugs</h4>";
+    print "<h4>Hi </h4>" . $myName . "<h4> you are allowed to buy specs and mugs</h4>";
 elseif ($age > 21)
-    print "<h4>Hi </h4>" . $name . "<h4> you are allowed to buy sausage roll!</h4>";
+    print "<h4>Hi </h4>" . $myName . "<h4> you are allowed to buy sausage roll!</h4>";
 
 /*  LOGICAL OPERATORS
     $a and $b 	(And) 	TRUE if both $a and $b are TRUE.
