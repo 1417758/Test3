@@ -104,6 +104,7 @@
     array_push($fav_bands, "Katy Perry");
     array_push($fav_bands, "The Peapods");
     array_push($fav_bands, "Nickelback");
+    rsort($fav_bands);
    // print count($fav_bands);
 
     $provActs = array("Specs", "Drugs", "Rock&Roll", "Mugs", "Sausage Rolls");
