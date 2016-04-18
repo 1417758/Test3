@@ -76,7 +76,7 @@ echo "<br/>";
 
 //my function
 function squareValue($number) {
-    echo "square inside myFunction: ". $number * $number;
+    echo "square value inside myFunction: ". $number * $number;
     echo "<br/>";
 }
 //invoke function
