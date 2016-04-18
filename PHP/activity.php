@@ -27,8 +27,8 @@ echo "<br/><br/>/*---------  IF CONDITION  -------------- */<br/>";
 <?php
 $age = $_GET['age'];
 //wot is allowed
-
-if ($_SERVER['REQUEST_METHOD'] === 'GET' and !empty($age))  {
+//if ($_SERVER['REQUEST_METHOD'] === 'GET' and !empty($age))  {
+if (!empty($age))  {
     if ($age < 16)
         print "Im sorry " . $myName . " you arent allowed to buy anything!";
     elseif ($age > 16 AND $age < 18)
