@@ -33,12 +33,13 @@ echo "My name is: " . $myName . " and his/her age is: " . $myAge . "\n";
     >   (Greater than)
 */
 ?>
-    <form action="<? echo $_SERVER["PHP_SELF"] ?>" method="post">
+<form action="<? echo $_SERVER["PHP_SELF"] ?>" method="post">
 
-        <label>Please enter your First Name</label>
-        <input type="text" name="forename">
-        <p><input type="submit" value="Submit"></p>
-    </form>
+    <label>Please enter your First Name</label>
+    <input type="text" name="forename">
+
+    <p><input type="submit" value="Submit"></p>
+</form>
 
 <?php
 $firstName = $_POST['forename'];
@@ -52,11 +53,17 @@ if ($firstName == $myName || $firstName == $name) {
 
 
 echo "<br/>we are here!!!!! <br/>";
-echo "<br/>/*---------  FUNCTIONS  -------------- */<br/>";
+echo "<br/>/*---------  BUILT-IN FUNCTIONS  -------------- */<br/>";
 // get the length of a string and
 // print it to the screen
 $length = strlen("david");
-print "david has exactly ".$length . " characters";
+print strtoupper("david") . " has exactly " . $length . " characters";
+// Round pi down from 3.1416...
+$round = round(M_PI);
+print $round; // prints 3
+// This time, round pi to 4 places
+$round_decimal = round(M_PI, 4);
+print $round_decimal; // prints 3.1416
 
 ?>
 
