@@ -51,10 +51,12 @@ if ($firstName == $myName || $firstName == $name) {
 }
 
 
-
-echo "<br/>WE ARE HERE!!!!! <br/>";
-echo "your name is:  " . $_POST["shoeHelp_iptName"] . "<br/>";
-echo "Your email address is:  " . $_POST["shoeHelp_iptEmail"];
+echo "<br/>we are here!!!!! <br/>";
+echo "<br/>/*---------  FUNCTIONS  -------------- */<br/>";
+// get the length of a string and
+// print it to the screen
+$length = strlen("david");
+print "david has exactly ".$length . " characters";
 
 ?>
 
