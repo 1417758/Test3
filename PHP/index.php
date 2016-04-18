@@ -61,17 +61,17 @@ print strtoupper("david") . " has exactly " . $length . " characters";
 echo "<br/>";
 // Round pi down from 3.1416...
 $round = round(M_PI);
-print $round; // prints 3
+print "rounding PI: ".$round; // prints 3
 echo "<br/>";
 // This time, round pi to 4 places
 $round_decimal = round(M_PI, 4);
-print $round_decimal; // prints 3.1416
+print "rounding PI to 4decimals: ".$round_decimal; // prints 3.1416
 echo "<br/>";
 // prints a number between 0 and 32767
-print rand();
+print "random numb: ".rand();
 echo "<br/>";
 // prints a number between 1 and 10
-print rand(1,10);
+print "random numb btw 1-10: ".rand(1,10);
 echo "<br/>";
 
 function squareValue($number) {
