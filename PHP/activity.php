@@ -3,7 +3,7 @@
 <head>
 </head>
 <body>
-<div class="grid-50">
+<div class="grid-45">
     <?php
     echo "<br/><br/>/*---------  DECLARE VARIABLES  -------------- */<br/>";
     $mug = "Mugs";
