@@ -44,9 +44,9 @@ echo "My name is: " . $myName . " and his/her age is: " . $myAge . "\n";
 $firstName = $_POST['forename'];
 $name = "Edgar";
 if ($firstName == $myName || $firstName == $name) {
-    print  "\n <h2> your name is either Edgar or Rachie </h2>";
+    print  "\n your name is either Edgar or Rachie ";
 } else {
-    print "\n <h2>your name is not on the system</h2>";
+    print "\n your name is not on the system";
     print $firstName;
 }
 
