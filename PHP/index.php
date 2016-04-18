@@ -75,13 +75,13 @@ print "random numb btw 1-10: ".rand(1,10);
 echo "<br/>";
 
 //my function
-$number =2;
 function squareValue($number) {
-    echo "2*2 inside myFunction: ". $number * $number;
+    echo "square inside myFunction: ". $number * $number;
     echo "<br/>";
 }
+//invoke function
 $n = 6;
-echo "square of 6: ".squareValue($n); // echos 36
+echo squareValue($n); // echos 36
 ?>
 
 
