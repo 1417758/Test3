@@ -101,9 +101,9 @@ foreach ($provActs as $x) {
     elseif ($x == $mug)
         //replace mugs by hugs
         echo "<br/>" . $provActs[3] = "Hugs";
-    elseif ($x == $provActs[length($provActs)-1])
+  //  elseif ($x == $provActs[length($provActs)-1])
         //replace mugs by hugs
-        unset($provActs[length($provActs)-1]);
+   //     unset($provActs[length($provActs)-1]);
     else
         print "<br/>" . $x;
 }
