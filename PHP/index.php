@@ -44,7 +44,7 @@ echo "My name is: " . $myName . " and his/her age is: " . $myAge . "\n";
 <?php
 $firstName = $_POST['forename'];
 $name = "Edgar";
-if (!$_SERVER['REQUEST_METHOD']){
+if (!($_SERVER['REQUEST_METHOD'] === 'POST')){
     if ($firstName == $myName || $firstName == $name) {
         print  "\n <h2> your name is either Edgar or Rachie </h2>";
     } else {
