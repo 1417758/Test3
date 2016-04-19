@@ -19,6 +19,6 @@ function squareValue($name, $numbSpecs, $numbMugs, $numbSausRolls) {
     $awardTxt += $numbSpecs . " Specs \n";
     $awardTxt += $numbMugs . " Mugs \n";
     $awardTxt += $numbSausRolls . " Sausage Rolls \n";
-    $awardTxt += "Award for capture: £" $award;
+    $awardTxt += "Award for capture: £ " . $award;
 }
 ?>
