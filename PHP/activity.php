@@ -92,6 +92,7 @@
     echo "<br/>";
     //invoke final function
     echo CaptureAward($myName, 2, 15, 36 );
+    echo "<br/>";
     print CaptureAward($myName, 6, 87, 1694 );
 
     ?>
