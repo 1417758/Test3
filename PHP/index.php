@@ -44,12 +44,16 @@ echo "My name is: " . $myName . " and his/her age is: " . $myAge . "\n";
 <?php
 $firstName = $_POST['forename'];
 $name = "Edgar";
-if ($firstName == $myName || $firstName == $name) {
-    print  "\n <h2> your name is either Edgar or Rachie </h2>";
-} else {
-    print "\n <h2>your name is not on the system</h2>";
-    print $firstName;
+if (!$_SERVER['REQUEST_METHOD']){
+    if ($firstName == $myName || $firstName == $name) {
+        print  "\n <h2> your name is either Edgar or Rachie </h2>";
+    } else {
+        print "\n <h2>your name is not on the system</h2>";
+        print $firstName;
+    }
 }
+
+
 
 
 echo "<br/>we are here!!!!! <br/>";
