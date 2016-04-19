@@ -26,7 +26,7 @@
     <!-- NOTE: by refering the form to itself a postback action isnt invoked -->
     <form action="<? echo $_SERVER["PHP_SELF"] ?>" method="get">
         <label>Please enter your Age</label>
-        <input type="text" name="age">
+        <input type="number" name="age">
 
         <p><input type="submit" value="Submit"></p>
     </form>
@@ -90,8 +90,8 @@
     }
 
 
-
-    echo squareValue(65); // echos 36
+    //invoke function
+    CaptureAward($myName, 2, 15, 36 );
 
     ?>
 
