@@ -16,8 +16,6 @@ $user = $_POST['username'];
 <body>
 <!--START OF HEADER -->
 <header>
-
-
     <section>
         <h1>Hello!! You have successfully logged into the database</h1>
     </section>
