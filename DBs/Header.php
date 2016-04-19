@@ -35,7 +35,8 @@
         <ul style="text-align: right">
             <li> <b>
                 Hi <?php echo $user; ?>
-                <br/><a href="...">Logout</a>
+                <br/>
+                    <a href="..." style="height: 15px;">Logout</a>
                 </b>
             </li>
         </ul>
