@@ -30,10 +30,9 @@ $user = $_GET['username'];
         <li><a href="...php">Movies after 2010</a></li>
         <li><a href="...php">X-Men Movies</a></li>
         <ul style="text-align: right">
-            <li> <b><span style="background-color: lightgoldenrodyellow;">
-                Hi <?php print $user; ?></span>
+            <li> <b><span>Hi <?php print $user; ?></span>
                 <br/>
-                    <a href="..." style="height: 10px;" >Logout</a>
+                    <a href="..." style="text-align: right" >Logout</a>
                 </b>
             </li>
         </ul>
