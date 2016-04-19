@@ -23,7 +23,7 @@
 
     <marquee>
         <b>
-            <time datetime="YYYY-MM-DDThh:mm:ssTZD">time</time>
+            <time datetime="YYYY-MM-DDThh:mm:ssTZD">11:39:21</time>
         </b>
     </marquee>
 
@@ -32,7 +32,7 @@
         <li><a href="...php">Movies by Marvel Studios</a></li>
         <li><a href="...php">Movies after 2010</a></li>
         <li><a href="...php">X-Men Movies</a></li>
-        <ul style="float:right;list-style-type:none;display:inline">
+        <ul style="text-align: right">
             <li> <b>
                 Hi <?php echo $user; ?>
                 <br/><a href="...">Logout</a>
