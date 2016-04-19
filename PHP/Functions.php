@@ -24,6 +24,7 @@ function CaptureAward($name, $numbSpecs, $numbMugs, $numbSausRolls) {
     $awardTxt += $numbMugs . " Mugs \n";
     $awardTxt += $numbSausRolls . " Sausage Rolls \n";
     $awardTxt += "Award for capture: £ " . $award;
+    $awardTxt = "here";
     return $awardTxt;
 }
 ?>
