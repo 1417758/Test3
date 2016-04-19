@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <title>Holla</title>
     <!--CSSs link -->
-    <link rel="stylesheet" type="text/css" href="../CSS/unsemantic-grid-responsive-tablet.css">
     <link rel="stylesheet" type="text/css" href="../CSS/htmlDefault.css">
-    <link rel="stylesheet" type="text/css" href="../AssesLabMOCK/assets/menu.css">
-    <link rel="stylesheet" type="text/css" href="../AssesLabMOCK/assets/rguStyle.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" type="text/css" href="CSS/menu.css">
 
 </head>
 <body>
