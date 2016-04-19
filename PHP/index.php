@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 </head>
 <body>
 <h1>
     <?php
+    include("Function.php");
     echo "Hello World";
     ?>
 </h1>
@@ -78,14 +80,12 @@ echo "<br/>";
 print "random numb btw 1-10: ".rand(1,10);
 echo "<br/>";
 
-//my function
-function squareValue($number) {
-    echo "square value inside myFunction: ". $number * $number;
-    echo "<br/>";
-}
 //invoke function
 $n = 6;
 echo squareValue($n); // echos 36
+
+
+
 ?>
 
 
