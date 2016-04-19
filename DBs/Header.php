@@ -7,15 +7,15 @@
     <link rel="stylesheet" type="text/css" href="../CSS/htmlDefault.css">
     <link rel="stylesheet" type="text/css" href="../CSS/unsemantic-grid-responsive-tablet.css">
     <link rel="stylesheet" type="text/css" href="CSS/menu.css">
-
-</head>
-<body>
-<!--START OF HEADER -->
-<header>
     <?php
     //echo "you are here3! login page";
     $user = $_POST['username'];
     ?>
+</head>
+<body>
+<!--START OF HEADER -->
+<header>
+
 
     <section>
         <h1>Hello!! You have successfully logged into the database</h1>
