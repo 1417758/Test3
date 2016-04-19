@@ -1,3 +1,6 @@
+<?php
+include("Functions.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +9,6 @@
 <body>
 <h1>
     <?php
-    include("Function.php");
     echo "Hello World";
     ?>
 </h1>
@@ -55,9 +57,6 @@ if (!empty($firstName)){
     }
 }
 
-
-
-
 echo "<br/>we are here!!!!! <br/>";
 echo "<br/>/*---------  FUNCTIONS  -------------- */<br/>";
 // get the length of a string and
@@ -83,9 +82,6 @@ echo "<br/>";
 //invoke function
 $n = 6;
 echo squareValue($n); // echos 36
-
-
-
 ?>
 
 
