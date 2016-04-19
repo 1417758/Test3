@@ -6,6 +6,11 @@
  * Time: 10:16
  */
 //my function
+function squareValue2($number) {
+    return $number * $number;
+}
+
+//my function
 function squareValue($number) {
     echo "square value inside myFunction: ". $number * $number;
     echo "<br/>";
@@ -13,12 +18,13 @@ function squareValue($number) {
 //my function2
 //my function
 function CaptureAward($name, $numbSpecs, $numbMugs, $numbSausRolls) {
-    $award = 10* squareValue($numbSpecs*$numbMugs*$numbSausRolls)/2;
+    $award = 10* squareValue2($numbSpecs*$numbMugs*$numbSausRolls)/2;
     $awardTxt = strtoupper("Wanted "). $name ."\n";
     $awardTxt += "Known to be in possession of the following items: \n";
     $awardTxt += $numbSpecs . " Specs \n";
     $awardTxt += $numbMugs . " Mugs \n";
     $awardTxt += $numbSausRolls . " Sausage Rolls \n";
     $awardTxt += "Award for capture: £ " . $award;
+    return $awardTxt;
 }
 ?>
