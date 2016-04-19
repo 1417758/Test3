@@ -1,6 +1,6 @@
 <?php
 //echo "you are here3! login page";
-$user = $_GET['username'];
+$user = $_POST['username'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +23,7 @@ $user = $_GET['username'];
     <marquee>
             <time datetime="YYYY-MM-DDThh:mm:ssTZD">11:39:22</time>
     </marquee>
-
+    <?php print $username; ?></span>
     <ul id="mainNav">
         <li><a href="...php">All Movies</a></li>
         <li><a href="...php">Movies by Marvel Studios</a></li>
