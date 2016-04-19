@@ -90,7 +90,7 @@
     }
 
     echo "<br/>";
-    echo "<br/><br/>/*---------  INVOKING FUNCT  -------------- */<br/>";
+    echo "<br/><br/>/*---------  INVOKING FUNCTIONS  -------------- */<br/>";
     //invoke final function
     echo CaptureAward($myName, 2, 15, 36);
     echo "<br/>";
