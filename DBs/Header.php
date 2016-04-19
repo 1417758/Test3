@@ -33,8 +33,8 @@
         <li><a href="...php">Movies after 2010</a></li>
         <li><a href="...php">X-Men Movies</a></li>
         <ul style="text-align: right">
-            <li> <b>
-                Hi <?php echo $user; ?>
+            <li> <b><span style="background-color: lightgreen;">
+                Hi <?php echo $user; ?></span>
                 <br/>
                     <a href="..." style="height: 15px;">Logout</a>
                 </b>
