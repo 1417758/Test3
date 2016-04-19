@@ -89,7 +89,7 @@
             break;
     }
 
-
+    echo "<br/>";
     //invoke function
     CaptureAward($myName, 2, 15, 36 );
 
