@@ -1,3 +1,7 @@
+<?php
+//echo "you are here3! login page";
+$user = $_POST['username'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +12,6 @@
     <link rel="stylesheet" type="text/css" href="../CSS/unsemantic-grid-responsive-tablet.css">
     <link rel="stylesheet" type="text/css" href="CSS/menu.css">
 
-    <?php
-    //echo "you are here3! login page";
-    $user = $_POST['username'];
-    ?>
 </head>
 <body>
 <!--START OF HEADER -->
