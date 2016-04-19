@@ -1,6 +1,6 @@
 <?php
 //echo "you are here3! login page";
-$user = $_POST['username'];
+$user = $_GET['username'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
