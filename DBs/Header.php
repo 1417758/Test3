@@ -34,7 +34,7 @@
         <li><a href="...php">X-Men Movies</a></li>
         <ul style="text-align: right">
             <li> <b><span style="background-color: lightgreen;">
-                Hi <?php echo $user; ?></span>
+                Hi <?php print $user; ?></span>
                 <br/>
                     <a href="..." style="height: 15px;">Logout</a>
                 </b>
