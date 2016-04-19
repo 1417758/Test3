@@ -32,7 +32,7 @@ $user = $_GET['username'];
         <ul style="text-align: right">
             <li> <b><span>Hi <?php print $user; ?></span>
                 <br/>
-                    <a href="..." style="text-align: right" >Logout</a>
+                    <a href="..." style="height: 15px;" >Logout</a>
                 </b>
             </li>
         </ul>
