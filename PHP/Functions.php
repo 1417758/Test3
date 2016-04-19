@@ -25,6 +25,5 @@ function CaptureAward($name, $numbSpecs, $numbMugs, $numbSausRolls) {
     $awardTxt .= $numbSausRolls . " Sausage Rolls \n";
     $awardTxt .= "Award for capture: £ " . $award;
     return $awardTxt;
-    echo "<br/>";
 }
 ?>
