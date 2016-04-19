@@ -23,11 +23,10 @@
     </section>
 
     <marquee>
-        <b>
             <time datetime="YYYY-MM-DDThh:mm:ssTZD">11:39:22</time>
-        </b>
+        <?php echo $user; ?>
     </marquee>
-
+    <?php print $user; ?>
     <ul id="mainNav">
         <li><a href="...php">All Movies</a></li>
         <li><a href="...php">Movies by Marvel Studios</a></li>
