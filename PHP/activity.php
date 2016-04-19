@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <?php
+    include("Functions.php");
+    ?>
 </head>
 <body>
 
@@ -85,8 +88,12 @@
             echo "you are very old!";
             break;
     }
-    ?>
 
+
+
+    echo squareValue(65); // echos 36
+
+    ?>
 
 </div>
 
