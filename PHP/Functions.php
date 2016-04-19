@@ -12,7 +12,7 @@ function squareValue($number) {
 }
 //my function2
 //my function
-function squareValue($name, $numbSpecs, $numbMugs, $numbSausRolls) {
+function CaptureAward($name, $numbSpecs, $numbMugs, $numbSausRolls) {
     $award = 10* squareValue($numbSpecs*$numbMugs*$numbSausRolls)/2;
     $awardTxt = strtoupper("Wanted "). $name ."\n";
     $awardTxt += "Known to be in possession of the following items: \n";
