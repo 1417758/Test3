@@ -41,6 +41,5 @@ li a:hover {
 }
 li:last-child {
     border-right: none;
-    height: 10px;
     text-align: right;
 }

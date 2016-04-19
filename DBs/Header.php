@@ -22,9 +22,8 @@ $user = $_GET['username'];
 
     <marquee>
             <time datetime="YYYY-MM-DDThh:mm:ssTZD">11:39:22</time>
-        <?php echo $user; ?>
     </marquee>
-    <?php print $user; ?>
+
     <ul id="mainNav">
         <li><a href="...php">All Movies</a></li>
         <li><a href="...php">Movies by Marvel Studios</a></li>
@@ -34,7 +33,7 @@ $user = $_GET['username'];
             <li> <b><span style="background-color: lightcoral;">
                 Hi <?php print $user; ?></span>
                 <br/>
-                    <a href="..." style="height: 10px;">Logout</a>
+                    <a href="..." style="height: 10px;" >Logout</a>
                 </b>
             </li>
         </ul>
