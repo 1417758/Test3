@@ -91,69 +91,70 @@
 
     echo "<br/>";
     //invoke final function
-    CaptureAward($myName, 2, 15, 36 );
-    CaptureAward($myName, 6, 87, 1694 );
+    echo CaptureAward($myName, 2, 15, 36);
+    echo CaptureAward($myName, 6, 87, 1694);
 
     ?>
 
 </div>
 
-<div style="width 500px;float: right; background-color: lightgoldenrodyellow"">
-    <?php
-    echo "<br/>";
-    echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
-    $myArray = array("do", "re", "mi");
-    echo $myArray[0];//prints 1st item of the array
-    $myArray[1] = 1; //modifies position 1
-    echo $myArray[1];
-    unset($myArray[2]);//removes item on the index indicated
-    echo $myArray[2] = "me";
+<div style="width 500px;float: right; background-color: lightgoldenrodyellow"
+">
+<?php
+echo "<br/>";
+echo "<br/><br/>/*---------  ARRAYS  -------------- */<br/>";
+$myArray = array("do", "re", "mi");
+echo $myArray[0];//prints 1st item of the array
+$myArray[1] = 1; //modifies position 1
+echo $myArray[1];
+unset($myArray[2]);//removes item on the index indicated
+echo $myArray[2] = "me";
 
-    //array_push() takes two arguments: an array, and an element to add to the end of that array
-    $fav_bands = array();
-    array_push($fav_bands, "Katy Perry");
-    array_push($fav_bands, "The Peapods");
-    array_push($fav_bands, "Nickelback");
-    rsort($fav_bands);
-   // print count($fav_bands);
+//array_push() takes two arguments: an array, and an element to add to the end of that array
+$fav_bands = array();
+array_push($fav_bands, "Katy Perry");
+array_push($fav_bands, "The Peapods");
+array_push($fav_bands, "Nickelback");
+rsort($fav_bands);
+// print count($fav_bands);
 
-    $provActs = array("Specs", "Drugs", "Rock&Roll", "Mugs", "Sausage Rolls");
-    sort($provActs);
-    echo "<br/>" . count($provActs);
-    echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";
-    foreach ($provActs as $x) {
-        if ($provActs[0] == $x)
-            //print without adding a new line
-            print $x;
-        elseif ($x == $mug)
-            //replace mugs by hugs
-            echo "<br/>" . $provActs[3] = "Hugs";
-        elseif ($x == $provActs[count($provActs) - 1])
-            //replace mugs by hugs
-            unset($provActs[count($provActs) - 1]);
-        else
-            print "<br/>" . $x;
-    }
+$provActs = array("Specs", "Drugs", "Rock&Roll", "Mugs", "Sausage Rolls");
+sort($provActs);
+echo "<br/>" . count($provActs);
+echo "<br/><br/>/*---------  LOOPS  -------------- */<br/>";
+foreach ($provActs as $x) {
+    if ($provActs[0] == $x)
+        //print without adding a new line
+        print $x;
+    elseif ($x == $mug)
+        //replace mugs by hugs
+        echo "<br/>" . $provActs[3] = "Hugs";
+    elseif ($x == $provActs[count($provActs) - 1])
+        //replace mugs by hugs
+        unset($provActs[count($provActs) - 1]);
+    else
+        print "<br/>" . $x;
+}
 
-    for ($i = 0; $i < 10; $i++)
-        echo "<br/>" . ($i) . "   -    " . ($i + 1);
-    ?>
-    <br/>
-    <br/>
-    <!-- NOTE: at runtime theres a postback action here -->
-    <form id="formAct1" action="activity.php" method="get">
-        <h4>Please enter the Number of days in this month:</h4>
-        <input type="number" name="NumbDays" width="150px">
-        <input type="submit" value="Submit">
-    </form>
-    <?php
-    $days = $_GET["NumbDays"];
-    for ($i = 0; $i < $days; $i++) {
-        echo "<br/>" . ($i + 1);
+for ($i = 0; $i < 10; $i++)
+    echo "<br/>" . ($i) . "   -    " . ($i + 1);
+?>
+<br/>
+<br/>
+<!-- NOTE: at runtime theres a postback action here -->
+<form id="formAct1" action="activity.php" method="get">
+    <h4>Please enter the Number of days in this month:</h4>
+    <input type="number" name="NumbDays" width="150px">
+    <input type="submit" value="Submit">
+</form>
+<?php
+$days = $_GET["NumbDays"];
+for ($i = 0; $i < $days; $i++) {
+    echo "<br/>" . ($i + 1);
 
-    }
+}
 
-    ?>
+?>
 
 </div>
 
