@@ -10,11 +10,15 @@ function squareValue($number) {
     echo "square value inside myFunction: ". $number * $number;
     echo "<br/>";
 }
-
 //my function2
-function wanted($number) {
-    echo "square value inside myFunction: ". $number * $number;
-    echo "<br/>";
+//my function
+function squareValue($name, $numbSpecs, $numbMugs, $numbSausRolls) {
+    $award = 10* squareValue($numbSpecs*$numbMugs*$numbSausRolls)/2;
+    $awardTxt = strtoupper("Wanted "). $name ."\n";
+    $awardTxt += "Known to be in possession of the following items: \n";
+    $awardTxt += $numbSpecs . " Specs \n";
+    $awardTxt += $numbMugs . " Mugs \n";
+    $awardTxt += $numbSausRolls . " Sausage Rolls \n";
+    $awardTxt += "Award for capture: £" $award;
 }
-
 ?>
