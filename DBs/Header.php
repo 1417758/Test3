@@ -37,7 +37,7 @@
             <li> <b><span style="background-color: lightcoral;">
                 Hi <?php print $user; ?></span>
                 <br/>
-                    <a href="..." style="height: 15px;">Logout</a>
+                    <a href="..." style="height: 10px;">Logout</a>
                 </b>
             </li>
         </ul>
