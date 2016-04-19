@@ -10,7 +10,7 @@
 
 <div class="loginBox">
     <h3>Login Form</h3>
-    <form method="get" action="login.php">
+    <form method="GET" action="login.php">
         <label>Username:</label><br>
         <input type="text" name="username" placeholder="rachela"
             /><br><br>
