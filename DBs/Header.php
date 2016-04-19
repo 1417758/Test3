@@ -13,7 +13,7 @@
 <!--START OF HEADER -->
 <header>
     <section>
-        <img id="figHeader" src="assets/csdmlogo.png" alt="logo">
+        <h1>Hello you have successfully logged into the database</h1>
     </section>
 
     <ul id="mainNav">
