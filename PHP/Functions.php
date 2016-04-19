@@ -18,12 +18,12 @@ function squareValue2($number) {
 //my other function
 function CaptureAward($name, $numbSpecs, $numbMugs, $numbSausRolls) {
     $award = 10* squareValue2($numbSpecs*$numbMugs*$numbSausRolls)/2;
-    $awardTxt = strtoupper("Wanted "). $name ."\n";
-    $awardTxt = $awardTxt. "Known to be in possession of the following items: \n";
-    $awardTxt = $awardTxt. $numbSpecs . " Specs \n";
-    $awardTxt = $awardTxt. $numbMugs . " Mugs \n";
-    $awardTxt = $awardTxt. $numbSausRolls . " Sausage Rolls \n";
-    $awardTxt = $awardTxt. "Award for capture: £ " . $award;
+    $awardTxt = strtoupper("Wanted "). $name ."/n";
+    $awardTxt .= "Known to be in possession of the following items: /n";
+    $awardTxt .= $numbSpecs . " Specs /n";
+    $awardTxt .= $numbMugs . " Mugs /n";
+    $awardTxt .= $numbSausRolls . " Sausage Rolls /n";
+    $awardTxt .= "Award for capture: £ " . $award;
     return $awardTxt;
 }
 ?>
