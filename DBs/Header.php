@@ -13,7 +13,7 @@
 <!--START OF HEADER -->
 <header>
     <section>
-        <h1>Hello you have successfully logged into the database</h1>
+        <h1>Hello!! You have successfully logged into the database</h1>
     </section>
 
     <ul id="mainNav">
