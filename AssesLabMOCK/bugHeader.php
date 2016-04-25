@@ -12,7 +12,7 @@
 </head>
 <body>
 <!--START OF HEADER -->
-<header id="bugHead">
+<header class="grid-container" id="bugHead">
 
     <section class="grid-30 tablet-grid-30 mobile-grid-30">
         <img id="logoHeader" src="assets/logo.png" alt="logo">
