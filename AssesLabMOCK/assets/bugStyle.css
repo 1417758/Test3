@@ -6,13 +6,18 @@
 #logoHeader{
     height: 125px;
 }
-
+#hSection1{
+    height: 140px;
+    vertical-align: middle;
+    background-color: greenyellow;
+}
 header > section > span{
     font-size: 22pt;
     font-weight: bolder;
 }
 
 #hSection2{
+    height: 140px;
     vertical-align: bottom;
     background-color: yellow;
 }
