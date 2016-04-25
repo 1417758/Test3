@@ -17,6 +17,7 @@ include("bugHeader.php");
             echo fgets($myfile) . "<br>";
         }
         fclose($myfile);
+        "<hr>";
         ?>
     </section>
 
