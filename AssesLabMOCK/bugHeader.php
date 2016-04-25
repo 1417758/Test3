@@ -18,7 +18,7 @@
         <img id="logoHeader" src="assets/logo.png" alt="logo">
     </section>
 
-    <section class="grid-60 tablet-grid-60 mobile-grid-60">
+    <section class="grid-60 tablet-grid-60 mobile-grid-60" style="background-color: yellow">
         <span>BugTracker</span>
         <br/>
         <span>Keeping track of all the pesky little bugs</span>
