@@ -14,7 +14,7 @@ ul {
 
 li a {
     display: block;
-    width: 200px;
+    width: inherit;
 }
 
 li a {
