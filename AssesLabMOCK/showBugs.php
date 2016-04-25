@@ -22,15 +22,17 @@ include("bugHeader.php");
         //add data from addBugs.php page
         if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             // loop through the superglobal POST array
-            foreach ($_POST as $key => $value) {
+            foreach ($_GET as $key => $value) {
                 print("key: " . $key . " value: " . $value);
             }
             echo "<hr>";
         }
 
         //echo "you are here3! login page";
-       // $user = $_GET['username'];
-        //PrintBug($user)
+        $a = $_GET['txtName'];
+        $b = $_GET['txtCat'];
+        $c = $_GET['txtSum'];
+        PrintBug($a, $b, $c);
 
         ?>
     </section>
