@@ -14,8 +14,8 @@ header > section > span{
 
 header > section> section{
     vertical-align: bottom;
+    background-color: yellow;
 }
 header > section > span > span{
-    font-size: 18pt;
-    font-weight: bolder;
+    font-size: 20pt;
 }
