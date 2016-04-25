@@ -13,11 +13,19 @@ include("bugHeader.php");
         <?php
         $myfile = fopen("assets/data.txt", "r") or die("Unable to open file!");
         // Output one line until end-of-file
-        while(!feof($myfile)) {
+        while (!feof($myfile)) {
             echo fgets($myfile) . "<br>";
         }
         fclose($myfile);
         echo "<hr>";
+
+        //add data from addBugs.php page
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            // loop through the superglobal POST array
+            foreach ($_POST as $key => $value) {
+                print("key: " . $key . " value: " . $value);
+            }
+        }
         ?>
     </section>
 

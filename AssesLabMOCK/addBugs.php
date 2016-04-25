@@ -10,7 +10,7 @@ include("bugHeader.php");
     </aside>
 
     <section id="mainSection" class="grid-60 tablet-grid-60 mobile-grid-60">
-        <form action="" method="post">
+        <form action="showBugs.php" method="post">
             <table>
                 <tr>
                     <td>Bug Name</td>
