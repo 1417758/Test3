@@ -7,7 +7,9 @@
      display: -webkit-flex Safari */
     vertical-align: baseline;
 }
-
+#mainSection{
+    margin-top: -2%;
+}
 #logoHeader{
     height: 125px;
 }
@@ -16,7 +18,7 @@
    /* background-color: greenyellow;*/
 }
 #hSection2{
-    margin-top: -2%;
+    margin-top: 2%;
     vertical-align: bottom;
     /*background-color: yellow;*/
 }
