@@ -3,8 +3,8 @@
    /* background-color: #DBC9DF;*/
 }
 #endFooter{
-    display: flex;
-    display: -webkit-flex /*Safari */
+    /* display: flex;
+     display: -webkit-flex Safari */
     vertical-align: baseline;
 }
 
