@@ -12,7 +12,7 @@ header > section > span{
     font-weight: bolder;
 }
 
-header > section> section{
+#hSection2{
     vertical-align: bottom;
     background-color: yellow;
 }
