@@ -14,7 +14,7 @@
 <!--START OF HEADER -->
 <header class="grid-container" id="bugHead">
 
-    <section class="grid-30 tablet-grid-30 mobile-grid-30" style="background-color: green">
+    <section class="grid-25 tablet-grid-25 mobile-grid-25" style="background-color: green">
         <img id="logoHeader" src="assets/logo.png" alt="logo">
     </section>
 

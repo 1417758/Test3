@@ -3,13 +3,13 @@ include("bugHeader.php");
 ?>
 <!--START OF MAIN -->
 <main class="grid-container">
-    <aside id="asideLeft" class="grid-40 tablet-grid-50 mobile-grid-100">
+    <aside id="asideLeft" class="grid-30 tablet-grid-30 mobile-grid-30">
         <?php
         include("bugNavig.php");
         ?>
     </aside>
 
-    <article id="article1" class="grid-50 tablet-grid-50 mobile-grid-100">
+    <article id="article1" class="grid-60 tablet-grid-60 mobile-grid-60">
         <h4>Welcome to Bug Article</h4>
             <p>Global Event Attributes HTML 4 added the ability to let events trigger actions in a browser, like starting a
             JavaScript when a
