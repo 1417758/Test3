@@ -1,7 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1417758
- * Date: 25/04/2016
- * Time: 09:24
- */
+include("bugHeader.php");
+?>
+<!--START OF MAIN -->
+<main class="grid-container">
+
+</main>
+
+<br/>
+<!--END OF MAIN -->
+
+<?php
+include("rguFooter.php");
+?>
+
