@@ -7,14 +7,14 @@ ul {
 
 li a {
     display: block;
-      width: 100px;
- }
+    width: 200px;
+}
 
- ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     width: 100px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
 }
 
 li a {
@@ -25,8 +25,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 250px;
-    background-color: #f1f1f1;
+    width: 450px;
+    /* background-color: #f1f1f1;*/
+    background-color: yellow;
 }
 
 li a {
@@ -46,12 +47,14 @@ li a:hover {
     background-color: #363636;
     color: white;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
+    width: 99%;
+    /*  background-color: #f1f1f1;*/
+    background-color: deeppink;
     height: 100%; /* Full height */
     /*   position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
