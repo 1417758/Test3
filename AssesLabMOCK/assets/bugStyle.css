@@ -33,5 +33,6 @@
 }
 
 main>section>table>tr>td{
-    width: 150px;
+    width: 250px;
+    background-color: yellow;
 }
