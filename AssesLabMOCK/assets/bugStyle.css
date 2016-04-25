@@ -32,7 +32,7 @@
     color: red;
 }
 
-main section table tr td{
+table tr td{
     width: 250px;
     background-color: yellow;
 }
