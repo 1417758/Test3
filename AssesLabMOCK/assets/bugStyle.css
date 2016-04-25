@@ -23,4 +23,5 @@ header > section > span{
 }
 header > section > span > span{
     font-size: 20pt;
+    font-weight: normal;
 }
