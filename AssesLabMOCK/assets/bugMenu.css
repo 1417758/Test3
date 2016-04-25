@@ -4,7 +4,7 @@ ul {
     margin: 0;
     margin-left: -5%;
     padding: 0;
-    width: 350px; /*99%;*/
+    width: 99%; /*99%; 200px*/
     /* background-color: #f1f1f1;*/
     background-color: deeppink;
     height: 100%; /* Full height */
