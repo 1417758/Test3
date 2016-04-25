@@ -18,11 +18,11 @@ include("bugHeader.php");
             </tr>
             <tr>
                 <td>Bug Summary</td>
-                <td><textarea rows="4" cols="25" name="txtSum" size="100%" placeholder="Bug Summary"></td>
+                <td><textarea rows="4" cols="25" name="txtSum" size="100%" ></td>
             </tr>
             <tr>
                 <td>Bug Category</td>
-                <td><input type="text" name="txtCat" size="100%" placeholder="Bug Category" required></td>
+                <td><input type="text" name="txtCat" size="100%" placeholder="Bug Category" required ></td>
             </tr>
             <tr>
                 <td></td>
