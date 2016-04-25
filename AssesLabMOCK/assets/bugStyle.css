@@ -1,6 +1,11 @@
 #bugHead{
     height: 140px;
-    background-color: #DBC9DF;
+   /* background-color: #DBC9DF;*/
+}
+#endFooter{
+    display: flex;
+    display: -webkit-flex /*Safari */
+    vertical-align: baseline;
 }
 
 #logoHeader{
