@@ -1,12 +1,9 @@
 
 
-<ul id="mainNav">
-    <li><a href="...php">Home</a></li>
-    <li><a href="...php">About</a></li>
-    <li><a href="...php">News</a></li>
-    <li><a href="...php">Events</a></li>
-    <li><a href="...php">Staff</a></li>
-    <li><a href="...php">Research</a></li>
-    <li><a href="....php">Study Info</a></li>
-    <li><a href="...php">Industry</a></li>
+<ul id="leftNav">
+    <li><a href="showBugs.php">All Gug Items</a></li>
+    <li><a href="...php">Android Bugs</a></li>
+    <li><a href="...php">iOS Bugs</a></li>
+    <li><a href="...php">Windows Bugs</a></li>
+    <li><a href="addBugs.php">Insert Bugs</a></li>
 </ul>
