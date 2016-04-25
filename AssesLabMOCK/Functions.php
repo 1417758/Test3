@@ -1,11 +1,12 @@
 <?php
 
 //function
-function PrintKeyAndValue($key, $value)
+function PrintBug($name, $cat, $sum)
 {
 
-    print("Bug Name: "
-    print("Bug Category:
-    print("Bug Summary:
+    print("Bug Name: " . $name ). "<br>";
+    print("Bug Category: " . $cat ). "<br>";
+    print("Bug Summary: " . $sum ). "<br>";
+    print "<hr>";
 
 }
