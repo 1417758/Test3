@@ -7,9 +7,9 @@
     height: 125px;
 }
 #hSection1{
-    height: 140px;
+    margin-top: 10%;
     vertical-align: middle;
-    background-color: greenyellow;
+   /* background-color: greenyellow;*/
 }
 header > section > span{
     font-size: 22pt;
@@ -19,7 +19,7 @@ header > section > span{
 #hSection2{
     height: 140px;
     vertical-align: bottom;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 header > section > span > span{
     font-size: 20pt;
