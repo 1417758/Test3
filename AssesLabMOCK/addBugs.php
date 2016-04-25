@@ -25,8 +25,7 @@ include("bugHeader.php");
                 <td><input type="text" name="txtCat" size="90%" placeholder="Bug Category" required ></td>
             </tr>
             <tr>
-                <td></td>
-                <td><input type="submit" value="Submit"></td>
+                <td colspan="2" style="float: right"><input type="submit" value="Submit"></td>
             </tr>
         </table>
 
