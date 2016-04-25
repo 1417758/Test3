@@ -1,7 +1,6 @@
 #bugHead{
     height: 140px;
     background-color: #DBC9DF;
-    vertical-align: bottom;
 }
 
 #logoHeader{
@@ -14,7 +13,7 @@ header > section > span{
 }
 
 header > section> section{
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 header > section > span > span{
     font-size: 18pt;
