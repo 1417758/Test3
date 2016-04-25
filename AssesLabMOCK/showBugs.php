@@ -25,7 +25,9 @@ include("bugHeader.php");
             foreach ($_POST as $key => $value) {
                 print("key: " . $key . " value: " . $value);
             }
+            echo "<hr>";
         }
+
         ?>
     </section>
 

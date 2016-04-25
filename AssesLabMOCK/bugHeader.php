@@ -9,6 +9,10 @@
     <link rel="stylesheet" type="text/css" href="assets/bugMenu.css">
     <link rel="stylesheet" type="text/css" href="assets/bugStyle.css">
 
+    <?php
+    include("Functions.php");
+    ?>
+
 </head>
 <body>
 <!--START OF HEADER -->
