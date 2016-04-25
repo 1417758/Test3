@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="assets/unsemantic-grid-responsive-tablet.css">
     <link rel="stylesheet" type="text/css" href="assets/htmlDefault.css">
     <link rel="stylesheet" type="text/css" href="assets/bugMenu.css">
+    <link rel="stylesheet" type="text/css" href="assets/bugStyle.css">
 
 </head>
 <body>
