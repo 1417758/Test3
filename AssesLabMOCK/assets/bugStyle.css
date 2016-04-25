@@ -10,17 +10,18 @@
     vertical-align: middle;
    /* background-color: greenyellow;*/
 }
-header > section > span{
-    font-size: 22pt;
-    font-weight: bolder;
-}
+
 
 #hSection2{
     margin-top: 2%;
     vertical-align: bottom;
     /*background-color: yellow;*/
 }
-header > section > span > span{
+#hSection2 > span{
+    font-size: 22pt;
+    font-weight: bolder;
+}
+#hSection2 > span > span{
     font-size: 20pt;
     font-weight: normal;
 }
