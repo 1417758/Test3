@@ -19,8 +19,8 @@
     </section>
 
     <section class="grid-60 tablet-grid-60 mobile-grid-60">
-        <h1>BugTracker</h1>
-        <h2>Keeping track of all the pesky little bugs</h2>
+        <span>BugTracker</span>
+        <span>Keeping track of all the pesky little bugs</span>
     </section>
 
 

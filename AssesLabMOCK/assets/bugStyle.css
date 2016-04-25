@@ -6,10 +6,10 @@
     height: 100px;
 }
 
-h1{
+section > span{
     font-size: 22pt;
 }
 
-h2{
+section > span > span{
     font-size: 18pt;
 }
