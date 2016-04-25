@@ -20,11 +20,11 @@
     vertical-align: bottom;
     /*background-color: yellow;*/
 }
-#hSection2 > span{
+#hSection2>span{
     font-size: 22pt;
     font-weight: bolder;
 }
-#hSection2 > span > span{
+#hSection2>span>span{
     font-size: 18pt;
     font-weight: normal;
     color: red;
