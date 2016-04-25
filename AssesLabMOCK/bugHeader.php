@@ -19,6 +19,7 @@
     </section>
 
     <section class="grid-60 tablet-grid-60 mobile-grid-60" style="background-color: yellow">
+        <br/>
         <span>BugTracker</span>
         <br/>
         <span>Keeping track of all the pesky little bugs</span>

@@ -13,6 +13,9 @@ header > section > span{
     font-weight: bolder;
 }
 
+header > section> section{
+    vertical-align: middle;
+}
 header > section > span > span{
     font-size: 18pt;
     font-weight: bolder;
