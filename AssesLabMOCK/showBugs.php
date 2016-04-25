@@ -12,7 +12,7 @@ include("bugHeader.php");
     <section id="mainSection" class="grid-60 tablet-grid-60 mobile-grid-60">
         <?php
         $myfile = fopen("webdictionary.txt", "r") or die("Unable to open file!");
-        echo fread($myfile, filesize("H:/DOCS - MODULES/CMM007 - Intranet Systems Dev/Labs/Test3/AssesLabMOCK/data.txt"));
+        echo fread($myfile, filesize("assets/data.txt"));
         fclose($myfile);
         ?>
     </section>
