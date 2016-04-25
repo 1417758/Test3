@@ -21,6 +21,15 @@
     padding: 0px 10px 10px 10px;
     width: 100%;
 }
+h1, h2, h3 {
+    text-transform: capitalize;
+    margin: 0 0 0 0px;
+    padding: 0px 0 0 0px;
+}
+
+h2, h3 {
+    padding: 10px 0 0 0px;
+}
 
 #article2Side{
     background-color: #782A7E;
