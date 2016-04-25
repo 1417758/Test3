@@ -14,11 +14,11 @@
 <!--START OF HEADER -->
 <header>
 
-    <section>
+    <section class="grid-30 tablet-grid-30 mobile-grid-30">
         <img id="figHeader" src="assets/logo.png" alt="logo">
     </section>
 
-    <section>
+    <section class="grid-60 tablet-grid-60 mobile-grid-60">
         <h1>Bug Tracker</h1>
         <h2>Keeping track of all the pesky little bugs</h2>
     </section>
