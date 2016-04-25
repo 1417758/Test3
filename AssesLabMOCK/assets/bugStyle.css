@@ -7,10 +7,12 @@
     height: 100px;
 }
 
-section > span{
+header > section > span{
     font-size: 22pt;
+    font-weight: bolder;
 }
 
-section > span > span{
+header > section > span > span{
     font-size: 18pt;
+    font-weight: bolder;
 }
