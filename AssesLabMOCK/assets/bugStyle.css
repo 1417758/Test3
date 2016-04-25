@@ -32,6 +32,6 @@
     color: red;
 }
 
-section table tr td{
+main>section>table>tr>td{
     width: 150px;
 }
