@@ -14,15 +14,15 @@ include("bugHeader.php");
         <table>
             <tr>
                 <td width="500px">Bug Name</td>
-                <td><input type="text" name="txtName" size="90%" placeholder="Bug Name" required></td>
+                <td><input type="text" name="txtName" size="70%" placeholder="Bug Name" required></td>
             </tr>
             <tr>
                 <td width="500px">Bug Summary</td>
-                <td><textarea rows="4" cols="25" name="txtSum" size="90%" placeholder="Bug Category"></textarea></td>
+                <td><textarea rows="4" cols="25" name="txtSum" size="70%" placeholder="Bug Category"></textarea></td>
             </tr>
             <tr>
-                <td width="500px">Bug Category</td>
-                <td><input type="text" name="txtCat" size="90%" placeholder="Bug Category" required ></td>
+                <td width="30%">Bug Category</td>
+                <td><input type="text" name="txtCat" size="70%" placeholder="Bug Category" required ></td>
             </tr>
             <tr>
                 <td colspan="2" style="float: right"><input type="submit" value="Submit"></td>
