@@ -14,11 +14,11 @@
 <!--START OF HEADER -->
 <header class="grid-container" id="bugHead">
 
-    <section class="grid-25 tablet-grid-25 mobile-grid-25" style="background-color: green">
+    <section id="hSection1" class="grid-25 tablet-grid-25 mobile-grid-25" >
         <img id="logoHeader" src="assets/logo.png" alt="logo">
     </section>
 
-    <section class="grid-60 tablet-grid-60 mobile-grid-60" >
+    <section id="hSection2" class="grid-60 tablet-grid-60 mobile-grid-60" >
         <br/>
         <span>BugTracker</span>
         <br/>
