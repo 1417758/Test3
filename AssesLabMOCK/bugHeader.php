@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>RGU</title>
+    <title>BUGS</title>
     <!--CSSs link -->
     <link rel="stylesheet" type="text/css" href="assets/unsemantic-grid-responsive-tablet.css">
     <link rel="stylesheet" type="text/css" href="assets/htmlDefault.css">
