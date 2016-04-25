@@ -31,3 +31,7 @@
     font-weight: normal;
     color: red;
 }
+
+section table tr td{
+    width: 150px;
+}
