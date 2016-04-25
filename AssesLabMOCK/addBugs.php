@@ -18,7 +18,7 @@ include("bugHeader.php");
             </tr>
             <tr>
                 <td >Bug Summary</td>
-                <td><textarea rows="4" cols="25" name="txtSum" size="450px" placeholder="Bug Category"></textarea></td>
+                <td><textarea rows="4" cols="25" name="txtSum" style="width: 450px;" placeholder="Bug Category"></textarea></td>
             </tr>
             <tr>
                 <td >Bug Category</td>
