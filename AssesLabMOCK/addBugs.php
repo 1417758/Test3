@@ -14,7 +14,7 @@ include("bugHeader.php");
             <table>
                 <tr>
                     <td>Bug Name</td>
-                    <td><input type="text" name="txtName" size="75%" placeholder="Bug Name" required></td>
+                    <td><input type="text" name="txtName" size="72%" placeholder="Bug Name" required></td>
                 </tr>
                 <tr>
                     <td>Bug Summary</td>
@@ -25,8 +25,8 @@ include("bugHeader.php");
                     <td>Bug Category</td>
                     <td>
                         <select name="txtCat" required style="width: 445px;">
-                            <option value='1'>Android</option>
-                            <option value='2'>iOS</option>
+                            <option value='Android'>Android</option>
+                            <option value='iOS'>iOS</option>
                         </select>
                     </td>
                 </tr>
