@@ -1,7 +1,7 @@
 <!--PHP code add-on -->
 <?php include("assets/Functions.php"); ?>
 <?php include("../Heros/DBConnection.php"); ?>
-
+<!----- end PHP  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
