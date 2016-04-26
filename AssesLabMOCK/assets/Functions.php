@@ -21,6 +21,7 @@ function addBug($db, $name, $sum, $cat)
     $sql_query = "INSERT INTO BUGS VALUES ($count, $name, $sum, $cat)";
     // execute the SQL query
     $result = $db->query($sql_query);
+    echo "something after executing sql";
 
     // iterate over $result object one $row at a time
     // use fetch_array() to return an associative array
