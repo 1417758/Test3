@@ -19,7 +19,7 @@ function addBug($db, $name, $sum, $cat)
     print "<hr>";
 
     // create a SQL query as a string
-    $sql_query = "INSERT INTO BUGS VALUES ($count, $name, $sum, $cat)";
+    $sql_query = "INSERT INTO BUGS VALUES ($name, $sum, $cat)";
     echo "something before executing sql";
     // execute the SQL query
     if (mysqli_query($db, $sql_query))
