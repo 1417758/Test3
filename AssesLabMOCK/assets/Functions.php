@@ -11,6 +11,8 @@ function PrintBug($name, $cat, $sum)
 
 function addBug($db, $name, $sum, $cat)
 {
+    PrintBug($name, $sum, $cat);
+    print "<hr>";
     // create a SQL query as a string
     $sql_query = "INSERT INTO BUGS VALUES ($name, $sum, $cat)";
     // execute the SQL query
