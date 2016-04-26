@@ -9,9 +9,11 @@
     <link rel="stylesheet" type="text/css" href="assets/bugMenu.css">
     <link rel="stylesheet" type="text/css" href="assets/bugStyle.css">
 
-    <?php
-    include("Functions.php");
-    ?>
+    <!--PHP code add-on -->
+    <?php include("assets/Functions.php"); ?>
+    <?php include("../Heros/DBConnection.php"); ?>
+
+    <link rel="stylesheet" type="text/css" href="../CSS/htmlDefault.css">
 
 </head>
 <body>
