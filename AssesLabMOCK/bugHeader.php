@@ -1,3 +1,7 @@
+<!--PHP code add-on -->
+<?php include("assets/Functions.php"); ?>
+<?php include("../Heros/DBConnection.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,11 +12,6 @@
     <link rel="stylesheet" type="text/css" href="assets/htmlDefault.css">
     <link rel="stylesheet" type="text/css" href="assets/bugMenu.css">
     <link rel="stylesheet" type="text/css" href="assets/bugStyle.css">
-
-    <!--PHP code add-on -->
-    <?php include("assets/Functions.php"); ?>
-    <?php include("../Heros/DBConnection.php"); ?>
-
     <link rel="stylesheet" type="text/css" href="../CSS/htmlDefault.css">
 
 </head>
