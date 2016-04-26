@@ -22,11 +22,11 @@
     vertical-align: bottom;
     /*background-color: yellow;*/
 }
-#hSection2 > span{
+#hSection2:only-child(2){
     font-size: 22pt;
     font-weight: bolder;
 }
-#hSection2:nth-child(2){
+#hSection2:nth-child(4){
     font-size: 18pt;
     font-weight: normal;
     color: red;
