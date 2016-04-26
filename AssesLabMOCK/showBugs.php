@@ -21,11 +21,10 @@ include("bugHeader.php");
         if (isset($_GET['txtName'])) {
             //ADD DATA TO DB
             addBug($db1, $a, $b, $c);
-
-            //display all bugs
-            getBugsPrinted($db1);
         }
 
+        //display all bugs
+        getBugsPrinted($db1);
 
         ?>
     </section>
