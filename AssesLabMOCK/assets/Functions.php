@@ -13,7 +13,7 @@ function PrintBug($name, $cat, $sum)
 
 function addBug($db, $name, $sum, $cat)
 {
-    try {
+    //try {
         //*NOTE TEST
         // PrintBug($name, $sum, $cat);
         //$count = $GLOBALS['count'];//print "global variable count is at: " . $count;// print "<hr>";
@@ -32,11 +32,11 @@ function addBug($db, $name, $sum, $cat)
         //increment counter
         //$GLOBALS['count']++;
         // print $GLOBALS['count'];
-    } catch (Exception $e) {
+   /* } catch (Exception $e) {
         throw new Exception("Value must be 1 or below");
         echo $e;
         echo "Error: " . $sql_query . "<br/>" . mysqli_error($db);
-    }
+    }*/
 }
 
 
