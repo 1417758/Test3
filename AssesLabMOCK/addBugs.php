@@ -24,7 +24,7 @@ include("bugHeader.php");
                 <tr>
                     <td>Bug Category</td>
                     <td>
-                        <select name="txtCat" size="75%" placeholder="Bug Category" required>
+                        <select name="txtCat" required style="width: 445px;">
                             <option value='1'>Android</option>
                             <option value='2'>iOS</option>
                         </select>
