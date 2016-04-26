@@ -1,6 +1,6 @@
 <?php
 
-static $count;
+static $count=4;
 
 //function
 function PrintBug($name, $cat, $sum)
@@ -14,7 +14,7 @@ function PrintBug($name, $cat, $sum)
 function addBug($db, $name, $sum, $cat)
 {
     PrintBug($name, $sum, $cat);
-    $count = $GLOBALS['$count'];
+    $count = $GLOBALS['count'];
     print $count;
     print "<hr>";
     // create a SQL query as a string
@@ -34,7 +34,8 @@ function addBug($db, $name, $sum, $cat)
     }
 
     //increment counter
-    $count += 1;
+    $GLOBALS['count']++;
+
 }
 
 
