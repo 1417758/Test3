@@ -22,7 +22,8 @@ function addBug($db, $name, $sum, $cat)
     // execute the SQL query
     $result = $db->query($sql_query);
     echo "something after executing sql";
-
+    echo "result: ".count($result);
+    echo "result: ". $result;
     // iterate over $result object one $row at a time
     // use fetch_array() to return an associative array
     while ($row = $result->fetch_array()) {
