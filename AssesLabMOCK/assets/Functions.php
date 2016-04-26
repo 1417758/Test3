@@ -25,18 +25,19 @@ function addBug($db, $name, $sum, $cat)
     echo "result: ". $result;
     // iterate over $result object one $row at a time
     // use fetch_array() to return an associative array
-    while ($row = $result->fetch_array()) {
+    /*while ($row = $result->fetch_array()) {
         echo "result: ".count($result);
         echo "row: ".count($row);
         echo $row;
-        /*$a = $row['title'];
+        $a = $row['title'];
         $b = $row['yearReleased'];
         echo "<p>{$a}</p>";
-        echo "<h3>" . $b . "</h3>";*/
-    }
+        echo "<h3>" . $b . "</h3>";
+    }*/
 
     //increment counter
     $GLOBALS['count']++;
+    print $GLOBALS['count'];
 
 }
 
