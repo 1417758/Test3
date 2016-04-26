@@ -23,7 +23,12 @@ include("bugHeader.php");
                 </tr>
                 <tr>
                     <td>Bug Category</td>
-                    <td><input type="text" name="txtCat" size="75%" placeholder="Bug Category" required></td>
+                    <td>
+                        <select name="txtCat" size="75%" placeholder="Bug Category" required>
+                            <option value='1'>Android</option>
+                            <option value='2'>iOS</option>
+                        </select>
+                    </td>
                 </tr>
                 <tr>
                     <td colspan="2"><input type="submit" value="Submit" style="float: right;"></td>

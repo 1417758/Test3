@@ -18,12 +18,12 @@ include("bugHeader.php");
         $c = $_GET['txtCat'];
 
         //add data from addBugs.php page
-        if (!empty($a) AND $_SERVER['REQUEST_METHOD'] === 'GET') {
+        if (isset($_GET['txtName'])) {
             //ADD DATA TO DB
             addBug($db1, $a, $b, $c);
 
             //display all bugs
-           // getBugs($db1);
+            getBugsPrinted($db1);
         }
 
 
