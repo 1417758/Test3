@@ -1,5 +1,7 @@
 <?php
 
+static $count;
+
 //function
 function PrintBug($name, $cat, $sum)
 {
@@ -12,9 +14,11 @@ function PrintBug($name, $cat, $sum)
 function addBug($db, $name, $sum, $cat)
 {
     PrintBug($name, $sum, $cat);
+    $count = $GLOBALS['$count'];
+    print $count;
     print "<hr>";
     // create a SQL query as a string
-    $sql_query = "INSERT INTO BUGS VALUES ($name, $sum, $cat)";
+    $sql_query = "INSERT INTO BUGS VALUES ($count, $name, $sum, $cat)";
     // execute the SQL query
     $result = $db->query($sql_query);
 
@@ -28,6 +32,9 @@ function addBug($db, $name, $sum, $cat)
         echo "<p>{$a}</p>";
         echo "<h3>" . $b . "</h3>";*/
     }
+
+    //increment counter
+    $count += 1;
 }
 
 
