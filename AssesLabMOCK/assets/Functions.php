@@ -15,7 +15,7 @@ function addBug($db, $name, $sum, $cat)
 {
     PrintBug($name, $sum, $cat);
     $count = $GLOBALS['count'];
-    print $count;
+    print "global variable count is at: ".$count;
     print "<hr>";
     // create a SQL query as a string
     $sql_query = "INSERT INTO BUGS VALUES ($count, $name, $sum, $cat)";
