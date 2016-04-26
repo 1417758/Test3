@@ -33,11 +33,14 @@ function addBug($db, $name, $sum, $cat)
 
 
 function getBugsPrinted($db)
-{   // create a SQL query as a string
+{
+    // create a SQL query as a string
     $sql_query = "SELECT * FROM Bugs";
     // execute the SQL query
     $result = $db->query($sql_query);
 
+    // iterate over $result object one $row at a time
+    // use fetch_array() to return an associative array
     while ($row = $result->fetch_array()) {
         $a = $row['bugName'];
         $b = $row['bugSummary'];
