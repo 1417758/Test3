@@ -24,14 +24,14 @@
 }
 
 #hSection2 b{
-    font-size: 22pt;
+    font-size: 28pt;
     font-weight: bolder;
-    color: yellow;
+    color: blue;
 }
 #hSection2:nth-child(2){
-    font-size: 20pt;
+    font-size: 26pt;
     font-weight: normal;
-    color: red;
+    color: #333333;
     align-content: stretch
 }
 

@@ -23,7 +23,7 @@
     </section>
 
     <section id="hSection2" class="grid-60 tablet-grid-60 mobile-grid-60" >
-        <br/>
+
         <b>BugTracker</b>
         <br/>
         <span id="span2">Keeping track of all the pesky little bugs</span>
