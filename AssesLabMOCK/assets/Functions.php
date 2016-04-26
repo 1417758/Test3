@@ -13,16 +13,15 @@ function PrintBug($name, $cat, $sum)
 
 function addBug($db, $name, $sum, $cat)
 {
-
-
-    //*NOTE TEST
-    // PrintBug($name, $sum, $cat);
-    //$count = $GLOBALS['count'];//print "global variable count is at: " . $count;// print "<hr>";
-
-    // create a SQL query as a string
-    $sql_query = "INSERT INTO Bugs VALUES ('$name', '$sum', '$cat')";
-    echo "something before executing sql";
     try {
+        //*NOTE TEST
+        // PrintBug($name, $sum, $cat);
+        //$count = $GLOBALS['count'];//print "global variable count is at: " . $count;// print "<hr>";
+
+        // create a SQL query as a string
+        $sql_query = "INSERT INTO Bugs VALUES ('$name', '$sum', '$cat')";
+        echo "something before executing sql";
+
         // execute the SQL query
         if (mysqli_query($db, $sql_query))
             echo "sql query executed succesfully" . "<br/>" . mysqli_affected_rows();
