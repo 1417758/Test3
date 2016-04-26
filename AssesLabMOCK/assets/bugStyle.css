@@ -26,18 +26,17 @@
 #hSection2 b{
     font-size: 30pt;
     font-weight: bolder;
-    color: #333333;
 }
 #hSection2:nth-child(2){
     font-size: 24pt;
     font-weight: normal;
-    color:blue;
-    align-content: stretch
+/* color:blue;*/
+ align-content: stretch
 }
 
 
 
 /*table tr td{
-    width: 550px;
-    background-color: yellow;
+ width: 550px;
+ background-color: yellow;
 }*/
