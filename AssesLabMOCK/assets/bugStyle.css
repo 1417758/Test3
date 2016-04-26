@@ -22,9 +22,10 @@
     vertical-align: bottom;
     /*background-color: yellow;*/
 }
-#hSection2:only-child(2){
+#hSection2:nth-last-child(3){
     font-size: 22pt;
     font-weight: bolder;
+    color: yellow;
 }
 #hSection2:nth-child(4){
     font-size: 18pt;
