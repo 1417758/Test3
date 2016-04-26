@@ -19,19 +19,22 @@ function addBug($db, $name, $sum, $cat)
         //$count = $GLOBALS['count'];//print "global variable count is at: " . $count;// print "<hr>";
 
         // create a SQL query as a string
-        $sql_query = "INSERT INTO Bugs VALUES ('$name', '$sum', '$cat')";
+        $sql_query = "INSERT INTO Bugs (bugName, bugSummary, bugCategory) VALUES ('$name', '$sum', '$cat')";
         echo "something before executing sql";
 
         // execute the SQL query
         if (mysqli_query($db, $sql_query))
             echo "sql query executed succesfully" . "<br/>" . mysqli_affected_rows();
         else
-            throw new Exception("Error: " . $sql_query . "<br/>" . mysqli_error($db));
+            echo "Error: " . $sql_query . "<br/>" . mysqli_error($db);
+            //throw new Exception("Error: " . $sql_query . "<br/>" . mysqli_error($db));
+
         //increment counter
         //$GLOBALS['count']++;
         // print $GLOBALS['count'];
     } catch (Exception $e) {
         throw new Exception("Value must be 1 or below");
+        echo $e;
         echo "Error: " . $sql_query . "<br/>" . mysqli_error($db);
     }
 }
