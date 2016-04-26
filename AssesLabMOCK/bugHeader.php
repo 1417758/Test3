@@ -24,7 +24,7 @@
 
     <section id="hSection2" class="grid-60 tablet-grid-60 mobile-grid-60" >
         <br/>
-        <span id="span1">BugTracker</span>
+        <b>BugTracker</b>
         <br/>
         <span id="span2">Keeping track of all the pesky little bugs</span>
     </section>
