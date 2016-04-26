@@ -1,6 +1,6 @@
 <?php
 
-static $count=4;
+static $count = 4;
 
 //function
 function PrintBug($name, $cat, $sum)
@@ -15,14 +15,21 @@ function addBug($db, $name, $sum, $cat)
 {
     PrintBug($name, $sum, $cat);
     $count = $GLOBALS['count'];
-    print "global variable count is at: ".$count;
+    print "global variable count is at: " . $count;
     print "<hr>";
+
     // create a SQL query as a string
     $sql_query = "INSERT INTO BUGS VALUES ($count, $name, $sum, $cat)";
+    echo "something after executing sql";
     // execute the SQL query
+    if (mysqli_query($db, $sql_query)) {
+        echo "sql query executed succesfully". "<br/>" . mysqli_affected_rows();
+    } else
+        echo "Error: " . $sql_query . "<br/>" . mysqli_error($db);
+
     $result = $db->query($sql_query);
     echo "something after executing sql";
-    echo "result: ". $result;
+    echo "result: " . $result;
     // iterate over $result object one $row at a time
     // use fetch_array() to return an associative array
     /*while ($row = $result->fetch_array()) {
