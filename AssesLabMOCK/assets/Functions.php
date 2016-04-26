@@ -13,10 +13,9 @@ function PrintBug($name, $cat, $sum)
 
 function addBug($db, $name, $sum, $cat)
 {
-    PrintBug($name, $sum, $cat);
-    //$count = $GLOBALS['count'];
-    //print "global variable count is at: " . $count;
-    // print "<hr>";
+    //*NOTE TEST
+    // PrintBug($name, $sum, $cat);
+    //$count = $GLOBALS['count'];//print "global variable count is at: " . $count;// print "<hr>";
 
     // create a SQL query as a string
     $sql_query = "INSERT INTO Bugs (bugName, bugSummary, bugCategory) VALUES ('$name', '$sum', '$cat')";
@@ -34,8 +33,9 @@ function addBug($db, $name, $sum, $cat)
 
 
 function getBugsPrinted($db)
-{
+{   // create a SQL query as a string
     $sql_query = "SELECT * FROM Bugs";
+    // execute the SQL query
     $result = $db->query($sql_query);
 
     while ($row = $result->fetch_array()) {
