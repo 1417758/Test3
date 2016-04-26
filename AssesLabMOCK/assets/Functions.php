@@ -25,8 +25,8 @@ function addBug($db, $name, $sum, $cat)
     // iterate over $result object one $row at a time
     // use fetch_array() to return an associative array
     while ($row = $result->fetch_array()) {
-        echo count($result);
-        echo count($row);
+        echo "result: ".count($result);
+        echo "row: ".count($row);
         echo $row;
         /*$a = $row['title'];
         $b = $row['yearReleased'];
