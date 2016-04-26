@@ -25,6 +25,7 @@ main {
     width: 960px;
     height: 960px;
     height: 60%;
+    max-height: 960px;
 }
 
 /* page's footer */
