@@ -22,11 +22,7 @@
     vertical-align: bottom;
     /*background-color: yellow;*/
 }
-#hSection2:nth-last-child(3){
-    font-size: 22pt;
-    font-weight: bolder;
-    color: yellow;
-}
+
 #hSection2:nth-child(4){
     font-size: 18pt;
     font-weight: normal;
@@ -34,7 +30,13 @@
     align-content: stretch
 }
 
-/*table tr td{
+/*#hSection2:nth-last-child(3){
+    font-size: 22pt;
+    font-weight: bolder;
+    color: yellow;
+}
+
+table tr td{
     width: 550px;
     background-color: yellow;
 }*/
