@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="assets/htmlDefault.css">
     <link rel="stylesheet" type="text/css" href="assets/bugMenu.css">
     <link rel="stylesheet" type="text/css" href="assets/bugStyle.css">
-    <link rel="stylesheet" type="text/css" href="../CSS/htmlDefault.css">
 
 </head>
 <body>
