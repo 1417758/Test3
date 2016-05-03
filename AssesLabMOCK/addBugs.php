@@ -31,6 +31,7 @@ include("bugHeader.php");
                         <select name="txtCat" required style="width: 445px;">
                             <option value='Android'>Android</option>
                             <option value='iOS'>iOS</option>
+                            <option value='Windows'>Windows</option>
                         </select>
                     </td>
                 </tr>
