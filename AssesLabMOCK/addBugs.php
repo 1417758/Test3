@@ -10,7 +10,11 @@ include("bugHeader.php");
     </aside>
 
     <section id="mainSection" class="grid-60 tablet-grid-60 mobile-grid-60">
-        <form > <!-- action="showBugs.php" method="get" -->
+
+        <?php if ($_SERVER['REQUEST_METHOD'] === 'GET') { ?>
+
+            <form action="<? echo $_SERVER["PHP_SELF"] ?>"
+            <!-- action="showBugs.php" method="get" -->
             <table>
                 <tr>
                     <td>Bug Name</td>
@@ -34,7 +38,39 @@ include("bugHeader.php");
                     <td colspan="2"><input type="submit" value="Submit" style="float: right;"></td>
                 </tr>
             </table>
-        </form>
+            </form>
+
+
+        <?
+    // loop through the superglobal GET array
+    foreach ($_GET as $key => $value){
+        PrintKeyAndValue($key, $value);
+    }
+
+}
+//otherwise print Post stuff (data entered to form)
+elseif ($_SERVER['REQUEST_METHOD'] === 'POST')
+{
+    // loop through the superglobal POST array
+    /*foreach ($_POST as $key => $value){
+        PrintKeyAndValue($key, $value);
+    }*/
+    //get data entered by user on insert bug page";
+        $name = $_POST['txtName'];
+        $summary = $_POST['txtSum'];
+        $category = $_POST['txtCat'];
+        //ADD DATA TO DB
+        addBug($db1, $name, $summary, $category);
+        //redirects to showBugs page
+        header('Location: showBugs.php');
+
+}else
+      //redirects to index page
+        header('Location: Index.php');
+
+
+        ?>
+
     </section>
 
 </main>
