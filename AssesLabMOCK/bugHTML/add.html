@@ -14,11 +14,11 @@
 <!--START OF HEADER -->
 <header class="grid-container" id="bugHead">
 
-    <section id="hSection1" class="grid-25 tablet-grid-25 mobile-grid-25" >
+    <section id="hSection1" class="grid-25 tablet-grid-25 mobile-grid-25">
         <img id="logoHeader" src="../assets/logo.png" alt="logo">
     </section>
 
-    <section id="hSection2" class="grid-60 tablet-grid-60 mobile-grid-60" >
+    <section id="hSection2" class="grid-60 tablet-grid-60 mobile-grid-60">
 
         <b>BugTracker</b>
         <br/>
@@ -43,15 +43,31 @@
     </aside>
 
     <section id="mainSection" class="grid-60 tablet-grid-60 mobile-grid-60">
-        <h4>Welcome to Bug Article</h4>
-        <p>Global Event Attributes HTML 4 added the ability to let events trigger actions in a browser, like starting a
-            JavaScript when a
-            user clicks on an element.
-            To learn more about programming events, please visit our JavaScript tutorial.
-            Below are the global event attributes that can be added to HTML elements to define event actions.
-            = New event attributes in HTML5.To learn more about programming events, please visit our JavaScript tutorial.
-            Below are the global event attributes that can be added to HTML elements to define event actions.
-            = New event attributes in HTML5.</p>
+        <form action="list.html" method="get">
+            <table>
+                <tr>
+                    <td>Bug Name</td>
+                    <td><input type="text" name="txtName" size="72%" placeholder="Bug Name" required></td>
+                </tr>
+                <tr>
+                    <td>Bug Summary</td>
+                    <td><textarea rows="4" cols="25" name="txtSum" style="width: 445px;"
+                                  placeholder="Bug Category" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>Bug Category</td>
+                    <td>
+                        <select name="txtCat" required style="width: 445px;">
+                            <option value='Android'>Android</option>
+                            <option value='iOS'>iOS</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit" style="float: right;"></td>
+                </tr>
+            </table>
+        </form>
     </section>
 
 </main>
