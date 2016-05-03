@@ -12,7 +12,7 @@ include("bugHeader.php");
     <section id="mainSection" class="grid-60 tablet-grid-60 mobile-grid-60">
 
 
-        <form action="<? echo $_SERVER["PHP_SELF"] ?>" method="post">
+        <form action="<? echo $_SERVER["PHP_SELF"] ?>" method="get">
         <!-- action="showBugs.php" method="get" -->
         <table>
             <tr>
@@ -43,10 +43,11 @@ include("bugHeader.php");
 
         <?
         if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            //do nothing
             // loop through the superglobal GET array
-            foreach ($_GET as $key => $value) {
+            /*foreach ($_GET as $key => $value) {
                 PrintKeyAndValue($key, $value);
-            }
+            }*/
 
         } //otherwise print Post stuff (data entered to form)
         elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
