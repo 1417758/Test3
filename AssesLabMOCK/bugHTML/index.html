@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BUGS</title>
+    <!--CSSs link -->
+    <link rel="stylesheet" type="text/css" href="assets/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" type="text/css" href="assets/htmlDefault.css">
+    <link rel="stylesheet" type="text/css" href="assets/bugMenu.css">
+    <link rel="stylesheet" type="text/css" href="assets/bugStyle.css">
+
+</head>
+<body>
+<!--START OF HEADER -->
+<header class="grid-container" id="bugHead">
+
+    <section id="hSection1" class="grid-25 tablet-grid-25 mobile-grid-25" >
+        <img id="logoHeader" src="assets/logo.png" alt="logo">
+    </section>
+
+    <section id="hSection2" class="grid-60 tablet-grid-60 mobile-grid-60" >
+
+        <b>BugTracker</b>
+        <br/>
+        <span id="span2">Keeping track of all the pesky little bugs</span>
+    </section>
+
+
+
+</header>
+<!--END OF HEADER -->
+<!--START OF MAIN -->
+<main class="grid-container">
+    <aside id="asideLeft" class="grid-30 tablet-grid-30 mobile-grid-30">
+        <?php
+        include("bugNavig.php");
+        ?>
+    </aside>
+
+    <section sytle="border: 1px dotted black; background-color: red," id="mainSection" class="grid-60 tablet-grid-60 mobile-grid-60">
+        <h4>Welcome to Bug Article</h4>
+        <p>Global Event Attributes HTML 4 added the ability to let events trigger actions in a browser, like starting a
+            JavaScript when a
+            user clicks on an element.
+            To learn more about programming events, please visit our JavaScript tutorial.
+            Below are the global event attributes that can be added to HTML elements to define event actions.
+            = New event attributes in HTML5.To learn more about programming events, please visit our JavaScript tutorial.
+            Below are the global event attributes that can be added to HTML elements to define event actions.
+            = New event attributes in HTML5.</p>
+    </section>
+
+</main>
+<!--END OF MAIN -->
+<!--START OF FOOTER -->
+<footer id="endFooter">
+    <br/>
+    <summary>&copy; 2016 Rachie Holdings. All rights reserved.</summary>
+    <br/><br/>
+</footer>
+<!--END OF FOOTER -->
+
+</body>
+</html>
