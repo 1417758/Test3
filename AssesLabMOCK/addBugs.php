@@ -12,7 +12,7 @@ include("bugHeader.php");
     <section id="mainSection" class="grid-60 tablet-grid-60 mobile-grid-60">
 
 
-        <form action="<? echo $_SERVER["PHP_SELF"] ?>"
+        <form action="<? echo $_SERVER["PHP_SELF"] ?>" method="post">
         <!-- action="showBugs.php" method="get" -->
         <table>
             <tr>
