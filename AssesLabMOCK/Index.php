@@ -9,7 +9,7 @@ include("bugHeader.php");
         ?>
     </aside>
 
-    <section sytle="border: 1px dotted black" id="mainSection" class="grid-60 tablet-grid-60 mobile-grid-60">
+    <section sytle="border: 1px dotted black; background-color: red," id="mainSection" class="grid-60 tablet-grid-60 mobile-grid-60">
         <h4>Welcome to Bug Article</h4>
             <p>Global Event Attributes HTML 4 added the ability to let events trigger actions in a browser, like starting a
             JavaScript when a
